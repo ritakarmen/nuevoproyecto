@@ -223,14 +223,15 @@ body{
 /*LIST COROUSEL*/
 .carousel {
   position: relative;
-  width: 1440px;
-  max-width: 100%;    
+  max-width: 1440px;
+  width: 100%;    
  /* padding: 10px 40px;*/
 }
 .carousel .title-oferta{
   font-size: 24px;
-    color: #000;
-    font-weight: bolder;
+  color: #000;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
 }
 .carousel .box-card {
   width: 298px;
@@ -302,8 +303,9 @@ body{
 .cardshow .title-oferta a{
   font-size: 17px;
     color: rgb(70, 14, 223);
-    font-weight: 900;
-    text-decoration: none;
+    /*font-weight: 900;
+    text-decoration: none;*/
+    font-family: 'Montserrat', sans-serif;
 }
 .cardshow .box-card {
   width: 260px;
@@ -377,7 +379,7 @@ body{
 }
 
 .gallery {
-  width: 1440px;
+  /*width: 1440px;*/
   overflow: hidden;
 }
 
@@ -589,6 +591,19 @@ body{
     }
     .box-slider-principal .slideshow-container .mySlides .img_desktop{
       display: block;
+    }
+    /*list slider*/
+    .gallery{
+      width: 1392px;
+      overflow: hidden;
+      margin: 0 35px;
+    }
+    .carousel .title-oferta{
+      padding: 32px 0 0 32px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      font-style: oblique;
     }
 /*--*/
 /*BLOQUE-FORMULARIO*/
