@@ -60,3 +60,12 @@ carousel.querySelector('.next').onclick = setInterval(function() {
   position = Math.max(position, -width * (listElems.length - count));
   list.style.marginLeft = position + 'px';
 }, 5000);
+
+/* SIDER NARANJ */
+
+var comtem = document.getElementsByClassName("carousel__slide");
+var n = 9;
+
+  console.log('fff',comtemtt)
+
+/** */

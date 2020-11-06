@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/all.css">
     <title>SaviSafety</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
 </head>
 <body class="page-principal">
     <div class="boxHeader">
@@ -113,6 +114,7 @@
         </div>
     </div>
     <div class="boxBody content">
+        <!---Slider Principal Home-->
         <section class="box-seccion box-slider-principal">
             <div class="slideshow-container">
                 <div class="mySlides fade">
@@ -160,6 +162,7 @@
                 </div>
             </div>
         </section>
+        <!---Seccion ofertas populares--->
         <section id="box-list-slider">
             <div id="carousel" class="carousel">
                 <h2 class="title-oferta">OFERTAS MÁS POPULARES</h2>
@@ -1105,13 +1108,13 @@
               </div>
         </section>
         <!---Seccion LINEA ECONOMICA BLOQUE NARANJA-->
-        <section id="box-list-linea-econ">
+        <section id="box-list-linea-econ" class="box-list-linea-econ">
             <div id="linea-econ" class="carousel cardshow">
                 <h2 class="cardshow title-oferta">LINEA ECONÓMICA <a href="#">VER MÁS <i class="fa fa-chevron-right" aria-hidden="true"></i></a></h2>
-                <button class="arrow prev">⇦</button>
-                <div class="gallery">
+                <button class="arrow prev carousel__navigation--left">⇦</button>
+                <div class="gallery gallerynaranja">
                   <ul class="images">
-                    <li>
+                    <li class="carousel__slide active">
                         <a href="#">
                             <div class="box-card">
                                 <div class="content-imagen">
@@ -1131,7 +1134,7 @@
                             </div>
                         </a>
                     </li>
-                    <li>
+                    <li class="carousel__slide">
                         <a href="#">
                             <div class="box-card">
                                 <div class="content-imagen">
@@ -1153,7 +1156,7 @@
                         </a>
                         
                     </li>
-                    <li>
+                    <li class="carousel__slide">
                         <a href="#">
                             <div class="box-card">
                                 <div class="content-imagen">
@@ -1176,7 +1179,7 @@
                         </a>
                         
                     </li>
-                    <li>
+                    <li class="carousel__slide">
                         <a href="#">
                             <div class="box-card">
                                 <div class="content-imagen">
@@ -1199,7 +1202,7 @@
                         </a>
                         
                     </li>
-                    <li>
+                    <li class="carousel__slide">
                         <a href="#">
                             <div class="box-card">
                                 <div class="content-imagen">
@@ -1219,78 +1222,9 @@
                                 </div>
 
                             </div>
-                        </a>
-                        
+                        </a>                        
                     </li>
-                    <li>
-                        <a href="#">
-                            <div class="box-card">
-                                <div class="content-imagen">
-                                    <div class="marca-mensaje">
-                                        <img class="marca-producto" src="images/png/marca1.png">
-                                        <span class="mensaje1">42% DSCTO</span>
-                                        <span class="mensaje2">+ ENVÍO GRATIS</span>
-                                    </div>
-                                    <div class="imagen-central">
-                                        <img src="images/png/oferta1.png">
-                                    </div>
-                                </div>
-                                <div class="text-info">
-                                    <span class="text-tacha">s/40.00</span>
-                                    <strong>S/27.60</strong>
-                                    <span>Alcohol gel antibacterial Neutro sin triglosan (100ml)</span>
-                                </div>
-
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="box-card">
-                                <div class="content-imagen">
-                                    <div class="marca-mensaje">
-                                        <img class="marca-producto" src="images/png/marca1.png">
-                                        <span class="mensaje1">42% DSCTO</span>
-                                        <span class="mensaje2">+ ENVÍO GRATIS</span>
-                                    </div>
-                                    <div class="imagen-central">
-                                        <img src="images/png/oferta1.png">
-                                    </div>
-                                </div>
-                                <div class="text-info">
-                                    <span class="text-tacha">s/40.00</span>
-                                    <strong>S/27.60</strong>
-                                    <span>Alcohol gel antibacterial Neutro sin triglosan (100ml)</span>
-                                </div>
-
-                            </div>
-                        </a>
-                        
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="box-card">
-                                <div class="content-imagen">
-                                    <div class="marca-mensaje">
-                                        <img class="marca-producto" src="images/png/marca1.png">
-                                        <span class="mensaje1">42% DSCTO</span>
-                                        <span class="mensaje2">+ ENVÍO GRATIS</span>
-                                    </div>
-                                    <div class="imagen-central">
-                                        <img src="images/png/oferta1.png">
-                                    </div>
-                                </div>
-                                <div class="text-info">
-                                    <span class="text-tacha">s/40.00</span>
-                                    <strong>S/27.60</strong>
-                                    <span>Alcohol gel antibacterial Neutro sin triglosan (100ml)</span>
-                                </div>
-
-                            </div>
-                        </a>
-                        
-                    </li>
-                    <li>
+                    <li class="carousel__slide">
                         <a href="#">
                             <div class="box-card">
                                 <div class="content-imagen">
@@ -1310,9 +1244,8 @@
                                 </div>
                             </div>
                         </a>
-                        
                     </li>
-                    <li>
+                    <li class="carousel__slide">
                         <a href="#">
                             <div class="box-card">
                                 <div class="content-imagen">
@@ -1330,14 +1263,75 @@
                                     <strong>S/27.60</strong>
                                     <span>Alcohol gel antibacterial Neutro sin triglosan (100ml)</span>
                                 </div>
-
                             </div>
                         </a>
-                        
+                    </li>
+                    <li class="carousel__slide">
+                        <a href="#">
+                            <div class="box-card">
+                                <div class="content-imagen">
+                                    <div class="marca-mensaje">
+                                        <img class="marca-producto" src="images/png/marca1.png">
+                                        <span class="mensaje1">42% DSCTO</span>
+                                        <span class="mensaje2">+ ENVÍO GRATIS</span>
+                                    </div>
+                                    <div class="imagen-central">
+                                        <img src="images/png/oferta1.png">
+                                    </div>
+                                </div>
+                                <div class="text-info">
+                                    <span class="text-tacha">s/40.00</span>
+                                    <strong>S/27.60</strong>
+                                    <span>Alcohol gel antibacterial Neutro sin triglosan (100ml)</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="carousel__slide">
+                        <a href="#">
+                            <div class="box-card">
+                                <div class="content-imagen">
+                                    <div class="marca-mensaje">
+                                        <img class="marca-producto" src="images/png/marca1.png">
+                                        <span class="mensaje1">42% DSCTO</span>
+                                        <span class="mensaje2">+ ENVÍO GRATIS</span>
+                                    </div>
+                                    <div class="imagen-central">
+                                        <img src="images/png/oferta1.png">
+                                    </div>
+                                </div>
+                                <div class="text-info">
+                                    <span class="text-tacha">s/40.00</span>
+                                    <strong>S/27.60</strong>
+                                    <span>Alcohol gel antibacterial Neutro sin triglosan (100ml)</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="carousel__slide">
+                        <a href="#">
+                            <div class="box-card">
+                                <div class="content-imagen">
+                                    <div class="marca-mensaje">
+                                        <img class="marca-producto" src="images/png/marca1.png">
+                                        <span class="mensaje1">42% DSCTO</span>
+                                        <span class="mensaje2">+ ENVÍO GRATIS</span>
+                                    </div>
+                                    <div class="imagen-central">
+                                        <img src="images/png/oferta1.png">
+                                    </div>
+                                </div>
+                                <div class="text-info">
+                                    <span class="text-tacha">s/40.00</span>
+                                    <strong>S/27.60</strong>
+                                    <span>Alcohol gel antibacterial Neutro sin triglosan (100ml)</span>
+                                </div>
+                            </div>
+                        </a>
                     </li>
                   </ul>
                 </div>
-                <button class="arrow next">⇨</button>
+                <button class="arrow next carousel__navigation--right">⇨</button>
               </div>
         </section>
         <!---Seccion CALZADO DE SEGURIDAD-->
@@ -1607,10 +1601,10 @@
                  <div class="box-formulario-dato">
                     <div class="box-content-fd box-cotizar">
                         <div class="content-box-cotizar">
-                            <h2>SOLUCÓN A TU MEDIDA</h2>
+                            <h2>SOLUCIÓN A TU MEDIDA</h2>
                             <p>Te ayudamos a seleccionar el EPP ideal de acuerdo a tus necesidades y presupuesto.</p>
                             <button class="btn-cotzar">
-                                Solicitar cotización
+                                Solicitar cotización <img src="images/svg/proximo.svg">
                             </button>
                         </div>
                     </div>
@@ -1689,6 +1683,17 @@
                         </li>
                         <li>
                             <a>Correo: ventas@jrimplementos.com</a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/svg/Path.svg"/>
+                            </a>
+                            <a href="">
+                                <img src="images/svg/LinkedIN.svg"/>
+                            </a>
+                            <a href="">
+                                <img src="images/svg/Youtube.svg"/>
+                            </a>
                         </li>
                     </ul>
                 </div>

@@ -9,10 +9,14 @@
 body{
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
+    background: #E6E6E6;
 }
 .content{
     max-Width: 1440px;
     margin: 0 auto;
+}
+.boxBody{
+  background: #fff;
 }
 /*css header*/
 .boxHeader{
@@ -85,6 +89,7 @@ body{
 /*inicio css footer*/
 .boxFooter{
     width: 100%;
+    background: white;
 }
 .boxFooter .boxFooter-content-bar-white{
   background-color: #fff;
@@ -200,7 +205,9 @@ body{
  
  /* On smaller screens, decrease text size */
  @media only screen and (max-width: 300px) {
-  .box-slider-principal .prev, .box-slider-principal .next,.box-slider-principal .text {font-size: 11px}
+  .box-slider-principal .prev, .box-slider-principal .next,.box-slider-principal .text {
+    font-size: 11px
+  }
  }
 
     /*FIN SLIDER*/
@@ -226,12 +233,6 @@ body{
   max-width: 1440px;
   width: 100%;    
  /* padding: 10px 40px;*/
-}
-.carousel .title-oferta{
-  font-size: 24px;
-  color: #000;
-  font-weight: bolder;
-  font-family: 'Montserrat', sans-serif;
 }
 .carousel .box-card {
   width: 298px;
@@ -308,11 +309,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .cardshow .box-card {
-  width: 260px;
-  height: 357px;
-}
-.cardshow .box-card {
-  width: 260px;
+  width: 270px;
   height: 357px;
   background: #fff;
 }
@@ -338,8 +335,17 @@ body{
   font-size: 12px;
   text-decoration: line-through;
 }
+/*seccion linea econo naranja*/
+
+
 #linea-econ,#linea-econ .title-oferta{
   background: #FA9500;
+}
+#box-list-linea-econ .title-oferta{
+  position: relative;
+  top: -13px;
+  left: 22%;
+  width: 25%;
 }
 #linea-econ .title-oferta a{
   color: #ffffff;
@@ -405,6 +411,7 @@ body{
 /*BLOQUE-FORMULARIO*/
 #box-list-suscripcion{
   padding: 10px 0;
+  padding-bottom: 0;
 }
 #box-list-suscripcion .content-suscripcion .box-icons a {
   text-decoration: none;
@@ -413,8 +420,19 @@ body{
   width: 100%;
   display: block;
 }
+#box-list-slider .carousel{
+  background: #fff;
+  width: 100%;
+}
+
+
 /*fin BLOQUE-FORMULARIO*/
 @media only screen and (min-width: 600px){
+  .gallery{
+    width: 1392px;
+    overflow: hidden;
+    margin-left: 48px;
+  }
     .boxHeader {
         background: #f7ec00;
         margin: 0 auto;
@@ -584,6 +602,11 @@ body{
       display: block;
       padding-bottom: 10px;
     }
+    .boxFooter-content-bar-white .boxfooter-list .box-contact ul li a{text-decoration:none}
+    .boxFooter-content-bar-white .boxfooter-list .box-contact ul li img{
+      padding: 5px;
+      width: 30px;
+    }
 /*----*/
 /*INICIO SLIDER*/
     .box-slider-principal .slideshow-container .mySlides .img_mobil{
@@ -592,27 +615,102 @@ body{
     .box-slider-principal .slideshow-container .mySlides .img_desktop{
       display: block;
     }
+    .box-slider-principal .prev {
+      left: 7px;
+      visibility: visible;
+    }
+    
+    .box-slider-principal .next {
+      right: 7px;
+      visibility: visible;
+    }
     /*list slider*/
-    .gallery{
+    /*.gallery{
       width: 1392px;
       overflow: hidden;
       margin: 0 35px;
-    }
+    }*/
     .carousel .title-oferta{
-      padding: 32px 0 0 32px;
+      padding: 32px 0 0 49px;
       font-family: 'Montserrat', sans-serif;
       font-size: 24px;
       font-weight: 600;
       font-style: oblique;
     }
+    /*slider natanja*/
+    #box-list-linea-econ .gallery {
+      width: 1386px;
+    }
+      .gallerynaranja{
+        margin-left: 54px;
+      }
+      #box-list-linea-econ li{
+        display: inline-block;
+        position: relative;
+        top: 19px;
+      }
+      #box-list-linea-econ .carousel__slide.active{
+        top: 47px;
+        position: relative;
+      }
+      #box-list-linea-econ .carousel__slide.active .box-card {
+        width: 272px;
+        height: 356px;
+        margin-right: 32px;
+        position: relative;
+        top: -49px;
+        z-index: 9;
+      }
+      #box-list-linea-econ .carousel__slide.active .imagen-central {
+        text-align: center;
+      }
+      #box-list-linea-econ .box-card .content-imagen .imagen-central img{
+        width: 100%;
+        max-width: 137px;
+      }
+      #box-list-linea-econ .box-card .content-imagen .imagen-central{
+        width: 216px;
+        height: 141px;
+        text-align: center;
+        padding-top: 60px;
+        margin: 0;
+      }
+      #box-list-linea-econ .box-card{        
+        width: 226px;
+        height: 323px;
+        margin: 6px;
+      }
+      #box-list-linea-econ .active .box-card .imagen-central img {
+        width: 100%;
+        max-width: 209px;
+      }
+      #box-list-linea-econ .carousel__slide.active .box-card .content-imagen .imagen-central {
+        width: 216px;
+        height: 174px;
+        text-align: initial;
+        margin: 0 auto;
+      }
+      #box-list-linea-econ .title-oferta  {
+        position: relative;
+        top: 25px;
+        left: 23%;
+        font-size: 29px;
+        font-weight: bold;
+        width: 28%;
+      }
+    /*---*/
 /*--*/
 /*BLOQUE-FORMULARIO*/
   .border-left{
-    border-right: 1px solid #ececec;
+    border-right: 2px solid #cac9c9
+  }
+  #box-list-suscripcion{
+    font-family: 'Lato', sans-serif;
   }
   #box-list-suscripcion .content-suscripcion .box-icons {
     display: flex;
     width: 100%;
+    background: #E6E6E6;
   }
   #box-list-suscripcion .content-suscripcion .box-icons .box-cont-icon{
     font-weight: bold;
@@ -636,7 +734,7 @@ body{
     display: flex;
   }
   #box-list-suscripcion .content-suscripcion .box-formulario-dato .box-content-fd{
-    width: 49.8%;
+    width: 50.8%;
     display: inline-block;
   }
   #box-list-suscripcion .content-suscripcion .box-formulario-dato .box-content-fd.box-cotizar {
@@ -646,8 +744,13 @@ body{
     padding: 94px 140px;
   }
   #box-list-suscripcion .content-suscripcion .box-formulario-dato .box-cotizar .content-box-cotizar h2{
-    font-size: 28px;
+    font-size: 25px;
+    padding-bottom: 12px;
+    font-weight: 800;
     
+  }
+  #box-list-suscripcion .content-suscripcion .box-formulario-dato .box-cotizar .content-box-cotizar .btn-cotzar img{
+    width: 13px;
   }
   #box-list-suscripcion .content-suscripcion .box-formulario-dato .box-cotizar .content-box-cotizar p{
     font-size: 18px;
