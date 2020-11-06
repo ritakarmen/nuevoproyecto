@@ -758,6 +758,7 @@ body{
     display: inline-block;
     width: 60%;
     vertical-align: bottom;
+    color: #000;
   }
   #box-list-suscripcion .content-suscripcion .box-formulario-dato{
     width: 100%;
