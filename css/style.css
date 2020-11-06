@@ -624,6 +624,9 @@ body{
       right: 7px;
       visibility: visible;
     }
+    .box-slider-principal .prev, .box-slider-principal .next{
+      font-size: 46px;
+    }
     /*list slider*/
     /*.gallery{
       width: 1392px;
@@ -728,6 +731,7 @@ body{
     display: inline-block;
     width: 60%;
     vertical-align: bottom;
+    color: #000;
   }
   #box-list-suscripcion .content-suscripcion .box-formulario-dato{
     width: 100%;
