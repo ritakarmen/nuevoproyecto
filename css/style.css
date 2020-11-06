@@ -167,7 +167,7 @@ body{
  /* The dots/bullets/indicators */
  .box-slider-principal .list-dot{
   position: absolute;
-  bottom: 7px;
+  bottom: 59px;
   left: 45%;
  }
  .box-slider-principal .dot {
@@ -428,18 +428,19 @@ body{
 
 /*fin BLOQUE-FORMULARIO*/
 @media only screen and (min-width: 600px){
+  .boxHeader {
+      /*background: #f7ec00;*/
+      background: #fff;
+      margin: 0 auto;
+      width: 100%;
+      text-align: center;
+      max-Width: 1440px;
+  }
   .gallery{
     width: 1392px;
     overflow: hidden;
     margin-left: 48px;
   }
-    .boxHeader {
-        background: #f7ec00;
-        margin: 0 auto;
-        width: 100%;
-        text-align: center;
-        max-Width: 1440px;
-    }
     .boxHeader .header-section-main{
         display: inline-block;
     }
@@ -448,8 +449,10 @@ body{
     }
     .boxHeader .box-content-bar{
         padding: 10px 0px;
-        background: #ffffff;
+        /*background: #ffffff;*/
         display: block;
+        background: #F7EC00;
+
     }
     .boxHeader .header-section-main,
     .boxHeader .box-content-bar{
@@ -480,13 +483,14 @@ body{
         top: 11px;
         right: -9px;
         font-size: 19px;
+        border: none;
     }
     .boxHeader .header-section-main .search #search-home .form-control{
         max-width: 750px;
         width: 100%;
-        height: 50px;
+        height: 40px;
         color: #000000;
-        border: 0px solid #b1b1b1;
+        border: 1.5px solid #b1b1b1;
         background: #fff;
         border-radius: 10px; 
         padding-left: 17px;
@@ -609,11 +613,18 @@ body{
     }
 /*----*/
 /*INICIO SLIDER*/
+
+    .box-slider-principal .content-box-princip{
+      padding: 45px 57px;
+      -webkit-box-shadow: inset 0px 32px 23px -30px rgba(0,0,0,0.42); 
+      box-shadow: inset 0px 32px 23px -30px rgba(0,0,0,0.42);
+    }
     .box-slider-principal .slideshow-container .mySlides .img_mobil{
       display: none;
     }
     .box-slider-principal .slideshow-container .mySlides .img_desktop{
       display: block;
+      border-radius: 25px;
     }
     .box-slider-principal .prev {
       left: 7px;
@@ -624,6 +635,25 @@ body{
       right: 7px;
       visibility: visible;
     }
+    .box-slider-principal .prev {
+      padding: 30px 24px;
+      left: 7px;
+      visibility: visible;
+      left: 18px;
+      background: #0066CC;
+      border-radius: 5px;
+      top: 295px;
+      font-size: 51px;
+    }
+    .box-slider-principal .next {
+      right: 7px;
+      visibility: visible;
+      padding: 30px 24px;
+      background: #0066CC;
+      border-radius: 5px;
+      top: 295px;
+      font-size: 51px;
+  }
     /*list slider*/
     /*.gallery{
       width: 1392px;
