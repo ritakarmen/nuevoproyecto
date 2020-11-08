@@ -18,6 +18,9 @@ body{
 .boxBody{
   background: #fff;
 }
+.box-card{
+  background: #ffffff;
+}
 /*css header*/
 .boxHeader{
     margin: 0 auto;
@@ -229,7 +232,6 @@ body{
 /**boxlistimg**/
 .box-slider-principal .box-list-img{
   max-width: 1440px;
-  /*max-height: 590px;*/
   margin: 6px auto;
   position: relative;
 }
@@ -247,16 +249,13 @@ body{
   position: relative;
   max-width: 1440px;
   width: 100%;    
- /* padding: 10px 40px;*/
 }
 .carousel .box-card {
   width: 298px;
-  height: 409px;
   margin: 17px;
   display: block;
   box-shadow: 0px -4.55249px 22.7624px rgba(0, 0, 0, 0.08), 0px 4.55249px 22.7624px rgba(0, 0, 0, 0.08);
   border-radius: 15px;
-  /* background: #eee; */
   position: relative;
 }
 .carousel .gallery a{
@@ -266,8 +265,7 @@ body{
 .carousel .box-card .content-imagen .imagen-central{
     width: 216px;
     height: 216px;
-    margin: 40px;
-    padding-top: 50px;
+
 }
 .carousel .box-card .content-imagen .marca-mensaje .marca-producto{
   position: absolute;
@@ -312,15 +310,27 @@ body{
   font-size: 12px;
   text-decoration:line-through;
 }
+/*lista slider*/
 .cardshow{
   background:#FAFAFA;
   padding: 20px 0;
 }
+#bios-desinf .title-oferta,
+#box-list-proteccion-respi .title-oferta,
+#box-list-lente-seguridad .title-oferta,
+#box-list-calza-segur .title-oferta{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  padding-left: 18px;
+}
+#box-list-slider .title-oferta{
+  font-family: 'Montserrat';
+  font-size: 16px;
+  padding-left: 18px;
+}
 .cardshow .title-oferta a{
-  font-size: 17px;
+  font-size: 15px;
     color: rgb(70, 14, 223);
-    /*font-weight: 900;
-    text-decoration: none;*/
     font-family: 'Montserrat', sans-serif;
 }
 .cardshow .box-card {
@@ -353,17 +363,28 @@ body{
 /*seccion linea econo naranja*/
 
 
-#linea-econ,#linea-econ .title-oferta{
+#box-list-linea-econ{
   background: #FA9500;
 }
+
 #box-list-linea-econ .title-oferta{
   position: relative;
   top: -13px;
   left: 22%;
   width: 25%;
+  
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: bold;
 }
+
 #linea-econ .title-oferta a{
   color: #ffffff;
+  font-size: 15px;
+}
+#box-list-linea-econ .box-cardshow-lineco .content-imagen .imagen-central {
+  margin: auto;
+  padding-top: 47px;
 }
 .arrow {
   position: absolute;
@@ -400,12 +421,10 @@ body{
 }
 
 .gallery {
-  /*width: 1440px;*/
   overflow-x: auto;
 }
 
 .gallery ul {
-  /*height: 130px;*/
   width: 9999px;
   margin: 0;
   padding: 0;
@@ -551,11 +570,16 @@ body{
   width: 100%;
   background: #fff;
 }
+.content-boxfooter-icons-pago{
+  padding: 20px;
+}
+
+
 /*fin BLOQUE-FORMULARIO*/
 @media only screen and (min-width: 600px){
   .gallery{
     width: 1392px;
-    overflow-x: auto;
+    overflow-x: hidden;
     margin-left: 48px;
   }
     .boxHeader {
@@ -666,6 +690,11 @@ body{
     }
     .boxHeader .box-content-bar .bar-menu-horizontal ul li{
         display: inline-block;
+        
+    }
+    .boxHeader .box-content-bar .bar-menu-horizontal ul li{    
+      list-style-type: none;
+      font-weight: bold;
     }
     .boxHeader .box-content-bar .bar-menu-horizontal ul li:last-child {   
         border-left: 1px solid;
@@ -744,22 +773,31 @@ body{
     .box-slider-principal .prev, .box-slider-principal .next{
       font-size: 46px;
     }
-    /*list slider*/
-    /*.gallery{
-      width: 1392px;
-      overflow: hidden;
-      margin: 0 35px;
-    }*/
-    .carousel .title-oferta{
-      padding: 32px 0 0 49px;
-      font-family: 'Montserrat', sans-serif;
+    #bios-desinf .title-oferta,
+    #box-list-proteccion-respi .title-oferta,
+    #box-list-lente-seguridad .title-oferta,
+    #box-list-calza-segur .title-oferta{
+      font-family: 'Montserrat';
+      font-size: 22px;
+      padding-left: 18px;
+      padding: 32px 0 13px 66px;
+    }
+    #box-list-slider .title-oferta{
+      font-family: 'Montserrat';
       font-size: 24px;
-      font-weight: 600;
-      font-style: oblique;
+      font-style: italic;
+      padding: 32px 0 0 66px;
     }
     /*slider natanja*/
+    #box-list-linea-econ{
+      padding: 50px 0;
+    }
     #box-list-linea-econ .gallery {
-      width: 1386px;
+      max-width: 1386px;
+      position: absolute;
+      width: 72%;
+      right: 0;
+      bottom: -21px;
     }
       .gallerynaranja{
         margin-left: 54px;
@@ -767,59 +805,73 @@ body{
       #box-list-linea-econ li{
         display: inline-block;
         position: relative;
-        top: 19px;
+        
       }
       #box-list-linea-econ .carousel__slide.active{
-        top: 47px;
+        
         position: relative;
       }
-      #box-list-linea-econ .carousel__slide.active .box-card {
-        width: 272px;
-        height: 356px;
-        margin-right: 32px;
-        position: relative;
-        top: -49px;
-        z-index: 9;
-      }
-      #box-list-linea-econ .carousel__slide.active .imagen-central {
-        text-align: center;
-      }
-      #box-list-linea-econ .box-card .content-imagen .imagen-central img{
+      #box-list-linea-econ .box-cardshow-lineco .box-card .content-imagen .imagen-central img{
         width: 100%;
-        max-width: 137px;
+        min-width: 209px;
       }
-      #box-list-linea-econ .box-card .content-imagen .imagen-central{
-        width: 216px;
-        height: 141px;
-        text-align: center;
-        padding-top: 60px;
-        margin: 0;
+      #box-list-linea-econ .gallerynaranja .box-card .content-imagen .imagen-central img{
+        width: 120px;
       }
-      #box-list-linea-econ .box-card{        
-        width: 226px;
-        height: 323px;
+
+      #box-list-linea-econ .box-card {
+        margin-right: 32px;
+        position: relative;        
+        z-index: 9;     
+        width: 231px;
+        height: 317px;
         margin: 6px;
       }
-      #box-list-linea-econ .active .box-card .imagen-central img {
-        width: 100%;
-        max-width: 209px;
-      }
-      #box-list-linea-econ .carousel__slide.active .box-card .content-imagen .imagen-central {
-        width: 216px;
-        height: 174px;
-        text-align: initial;
+
+      #box-list-linea-econ .gallerynaranja .box-card .content-imagen .imagen-central {
         margin: 0 auto;
+        text-align: center;
+        height: 125px;
+        padding-top: 58px;;
+      }
+      #box-list-linea-econ .box-cardshow-lineco .box-card .content-imagen .imagen-central {
+
       }
       #box-list-linea-econ .title-oferta  {
         position: relative;
-        top: 25px;
-        left: 23%;
-        font-size: 29px;
-        font-weight: bold;
-        width: 28%;
+        top: -7px;
+        left: 1%;
+        width: 64%;
+        font-size: 40px;
+        line-height: 50px;
       }
-      
-
+      #box-list-linea-econ .gallerynaranja.title-oferta  {
+        position: relative;
+        top: -7px;
+        left: 1%;
+        width: 64%;
+        font-size: 40px;
+        line-height: 50px;
+      }
+      #box-list-linea-econ .content-box-naranja{
+        display: flex;
+      }
+      #box-list-linea-econ .box-cardshow-lineco{
+        margin-left: 23px;
+      }
+      #box-list-linea-econ .box-cardshow-lineco .box-card{
+        width: 298px;
+        height: 409px;
+        left: 36px;
+        position: relative;
+        top: 21px;    
+      }
+      #box-list-linea-econ .content-box-naranja .box-card .text-info {
+        margin: 8px 17px 17px 17px;
+    }
+    #box-list-linea-econ .box-cardshow-lineco .box-card .text-info{
+      margin: 27px;
+    }
     /*---*/
 /*--*/
 /*BLOQUE-FORMULARIO*/
@@ -879,5 +931,7 @@ body{
 #box-list-suscripcion .content-suscripcion .box-formulario-dato .box-formulario .form-container .mail{
   width: 93%;
 }
+
+
 /*---*/ 
 }
