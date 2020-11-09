@@ -95,7 +95,9 @@ body{
     width: 100%;
     background: white;
 }
-.boxFooter .box-contact h2{
+
+.boxFooter .box-contact h2 {
+  padding: 12px 0;
   font-size: 15px;
 }
 .boxFooter .boxfooter-list{
@@ -319,7 +321,7 @@ body{
 #box-list-proteccion-respi .title-oferta,
 #box-list-lente-seguridad .title-oferta,
 #box-list-calza-segur .title-oferta{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 16px;
   padding-left: 18px;
 }
@@ -330,8 +332,9 @@ body{
 }
 .cardshow .title-oferta a{
   font-size: 15px;
-    color: rgb(70, 14, 223);
-    font-family: 'Montserrat', sans-serif;
+  color: #0066CC;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
 }
 .cardshow .box-card {
   width: 270px;
@@ -368,24 +371,55 @@ body{
 }
 
 #box-list-linea-econ .title-oferta{
-  position: relative;
-  top: -13px;
-  left: 22%;
-  width: 25%;
-  
   font-family: "Montserrat";
   font-style: italic;
   font-weight: bold;
+  width: 66%;
+  padding: 60px 0 0 20px;
 }
 
-#linea-econ .title-oferta a{
+#box-list-linea-econ #linea-econ .title-oferta a{
   color: #ffffff;
   font-size: 15px;
 }
+#box-list-linea-econ .gallerynaranja .box-card {
+  width: 202px;
+  height: 278px;
+
+}
+#box-list-linea-econ .box-cardshow-lineco .box-card {
+  width: 315px;
+  height: 294px;
+  margin: 20px auto;
+}
+#box-list-linea-econ .box-card .imagen-central img{
+  width: 77%;
+}
+#box-list-linea-econ .box-card .text-info {
+  margin: 27px;
+  margin-top: 2px;
+}
+#box-list-linea-econ .box-card .text-info span {
+  font-size: 14px;
+  display: block;
+}
 #box-list-linea-econ .box-cardshow-lineco .content-imagen .imagen-central {
   margin: auto;
-  padding-top: 47px;
+  text-align: center;
 }
+#box-list-linea-econ .carousel .box-card .content-imagen .imagen-central{
+  height: inherit;
+  text-align: center;
+}
+#box-list-linea-econ .gallerynaranja .box-card .imagen-central img {
+  width: 50%;
+  padding-top: 50px;
+}
+
+#box-list-linea-econ .box-card .content-imagen .marca-mensaje .marca-producto {
+  left: 21px;
+}
+
 .arrow {
   position: absolute;
   top: 220px;
@@ -465,7 +499,7 @@ body{
 }
 #box-list-suscripcion .content-suscripcion .box-cont-icon{
   text-align: left;
-    padding-bottom: 10px;
+    padding-bottom: 36px;
     padding-left: 30px;
 }
 
@@ -486,6 +520,7 @@ body{
 }
 .boxFooter-content-bar-white .boxfooter-list .box-contact ul li a{
   text-decoration:none
+  
 }
 .boxFooter-content-bar-white .boxfooter-list .box-contact ul li img{
   padding: 5px;
@@ -495,10 +530,10 @@ body{
   width: 100%;
   text-align: center;
   margin: auto;
-  padding: 35px 0;
+  padding: 68px 0;
 }
 #box-list-suscripcion .content-suscripcion .box-formulario-dato .box-formulario .content-box-formulario .form{
-  margin: 40px;
+  margin: 20px;
 }
 #box-list-suscripcion .content-suscripcion .box-formulario-dato .box-formulario .content-box-formulario .form .btn-enviar{
   background: #0071e3;
@@ -517,7 +552,10 @@ body{
   width: 100%;
 }
 #box-list-suscripcion .content-suscripcion .box-formulario-dato .box-cotizar .content-box-cotizar{
-  padding: 17px;
+ /* padding: 17px;*/
+     padding: 47px;
+    line-height: 2;
+
 }
 #box-list-suscripcion .content-suscripcion .box-formulario-dato .box-cotizar .content-box-cotizar h2{
   font-size: 25px;
@@ -544,18 +582,19 @@ body{
   margin-top: 49px;
   cursor: pointer;
 }
-#box-list-suscripcion .content-suscripcion .box-formulario-dato .box-formulario .form-container .input{
-  width: 100%;
+
+#box-list-suscripcion .content-suscripcion .box-formulario-dato .box-formulario .form-container .input {
+  width: 92%;
   padding: .375rem .75rem;
   font-size: 1rem;
   line-height: 1.5;
   border: none;
-  border-radius: .25rem;
-  display: inline-block;
-  margin: 10px 0;
+  border-radius: .75rem;
+  margin: 21px 0;
 }
+
 #box-list-suscripcion .content-suscripcion .box-formulario-dato .box-formulario .form-container .mail{
-  width: 100%;
+  width: 93%;
   display: block;
 }
 #box-list-suscripcion .content-suscripcion .box-formulario-dato .box-formulario .content-box-formulario h2{
@@ -577,6 +616,7 @@ body{
 
 /*fin BLOQUE-FORMULARIO*/
 @media only screen and (min-width: 600px){
+  
   .gallery{
     width: 1392px;
     overflow-x: hidden;
@@ -604,6 +644,14 @@ body{
     .boxHeader .box-content-bar{
         Width: 100%;
     }
+    .boxHeader .header-section-main-mobil .icons .btn-shopping a .icon-cart__badge {
+      top: 17px;
+      right: 83px;
+    }
+    #box-list-suscripcion .content-suscripcion .box-cont-icon{
+      padding-bottom: 10px;
+    }
+    
     .boxHeader .header-section-main .header-logo,
     .boxHeader .header-section-main .search,
     .boxHeader .header-section-main .icons{
@@ -749,6 +797,9 @@ body{
       display: inline-block;
       width: 33%;
     }
+    .boxFooter .box-contact h2{
+      padding: inherit;
+    }
     .boxFooter-content-bar-white .boxfooter-list .box-contact h2{
       font-size: 19px;
       padding-bottom: 12px;
@@ -777,8 +828,8 @@ body{
     #box-list-proteccion-respi .title-oferta,
     #box-list-lente-seguridad .title-oferta,
     #box-list-calza-segur .title-oferta{
-      font-family: 'Montserrat';
-      font-size: 22px;
+      font-family: 'Lato', sans-serif;
+      font-size: 21px;
       padding-left: 18px;
       padding: 32px 0 13px 66px;
     }
@@ -814,12 +865,14 @@ body{
       #box-list-linea-econ .box-cardshow-lineco .box-card .content-imagen .imagen-central img{
         width: 100%;
         min-width: 209px;
+       padding-top: 41px;
       }
       #box-list-linea-econ .gallerynaranja .box-card .content-imagen .imagen-central img{
         width: 120px;
+        padding: 0;
       }
 
-      #box-list-linea-econ .box-card {
+      #box-list-linea-econ .gallerynaranja .box-card {
         margin-right: 32px;
         position: relative;        
         z-index: 9;     
@@ -834,30 +887,25 @@ body{
         height: 125px;
         padding-top: 58px;;
       }
-      #box-list-linea-econ .box-cardshow-lineco .box-card .content-imagen .imagen-central {
 
-      }
       #box-list-linea-econ .title-oferta  {
         position: relative;
-        top: -7px;
-        left: 1%;
-        width: 64%;
+        top: 39px;
+        left: 28%;
         font-size: 40px;
-        line-height: 50px;
+        line-height: 50px;  
+        width: inherit;
+        padding: 0;
       }
-      #box-list-linea-econ .gallerynaranja.title-oferta  {
-        position: relative;
-        top: -7px;
-        left: 1%;
-        width: 64%;
-        font-size: 40px;
-        line-height: 50px;
-      }
+      #box-list-linea-econ .box-cardshow-lineco .box-card {
+        margin: inherit;
+    }
       #box-list-linea-econ .content-box-naranja{
         display: flex;
       }
       #box-list-linea-econ .box-cardshow-lineco{
-        margin-left: 23px;
+        position: relative;
+        right: 34%;
       }
       #box-list-linea-econ .box-cardshow-lineco .box-card{
         width: 298px;
@@ -866,11 +914,13 @@ body{
         position: relative;
         top: 21px;    
       }
-      #box-list-linea-econ .content-box-naranja .box-card .text-info {
-        margin: 8px 17px 17px 17px;
+      #box-list-linea-econ .gallerynaranja .box-card .text-info span {
+        font-size: 14px;
+        display: block;
     }
     #box-list-linea-econ .box-cardshow-lineco .box-card .text-info{
       margin: 27px;
+      color: #000;
     }
     /*---*/
 /*--*/
@@ -921,15 +971,22 @@ body{
 }
 
 #box-list-suscripcion .content-suscripcion .box-formulario-dato .box-formulario .form-container .input{
-  width: 43%;
+    width: 42%;
+    display: inline-block;
+    margin: 10px 0;
+    margin-left: 5px;
 }
 
 #box-list-suscripcion .content-suscripcion .box-formulario-dato .box-formulario .content-box-formulario {
   width: 71%;
+  padding: 35px 0;
 }
 
 #box-list-suscripcion .content-suscripcion .box-formulario-dato .box-formulario .form-container .mail{
   width: 93%;
+}
+#box-list-suscripcion .content-suscripcion .box-formulario-dato .box-formulario .content-box-formulario h2{
+  font-size: 24px;
 }
 
 
