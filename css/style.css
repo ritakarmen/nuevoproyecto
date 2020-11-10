@@ -52,7 +52,7 @@ body{
 }
 .boxHeader .header-section-main-mobil .header-logo{
     display: inline-block;
-    width: 60%;
+    margin-right: 37px;
 }
 .boxHeader .header-section-main-mobil .icons{
     display: inline-block;
@@ -715,6 +715,8 @@ height: 48px;
     .boxHeader .header-section-main .header-logo{
         width: 30%;
         text-align: right;
+        position: relative;
+      right: 39px;
     }
     .boxHeader .header-section-main .header-logo img{
         width: 100%;
