@@ -26,13 +26,17 @@ body{
     margin: 0 auto;
     text-align: center;
 }
+
 .boxHeader .header-section-main{
     position: relative;
 }
+.boxHeader .content-bar-yellow{
+  padding: 10px;
+}
 .boxHeader .icons .btn-shopping a .icon-cart__badge {
     position: absolute;
-    top: 27px;
-    right: 118px;
+    top: 12px;
+    right: 100px;
     margin-left: -5px;
     color: #000;
     background-color: #ffffff;
@@ -40,11 +44,6 @@ body{
     border-radius: 15px;
     font-size: 14px;
     font-weight: bolder;
-}
-.boxHeader .header-section-main-mobil .icons .btn-shopping a .icon-cart__badge {
-    position: absolute;
-    top: 17px;
-    right: 83px;
 }
 .boxHeader .header-section-main-mobil{
     background: #000000;
@@ -58,7 +57,7 @@ body{
 .boxHeader .header-section-main-mobil .icons{
     display: inline-block;
     width: 38%;
-    vertical-align: super;
+    vertical-align: 13px;
 }
 .boxHeader .header-section-main-mobil .search{
     display: block;
@@ -81,13 +80,23 @@ body{
     display: none;
 }
 .boxHeader .header-section-main-mobil .search #search-home .form-control{
-    color: #000000;
-    border: 0px solid #b1b1b1;
-    background: #fff;
-    border-radius: 50px;
-    margin: 12px;
-    padding: 11px;
-    width: 85%;
+  color: #000000;
+  border: 0px solid #b1b1b1;
+  background: #fff;
+  border-radius: 50px;
+  margin: 7px;
+  width: 85%;
+  height: 32px;
+  padding-left: 12px;
+}
+.header-section-main-mobil .content-bar-black{
+  height: 50px;
+}
+.header-section-main-mobil .content-bar-int{
+  padding-top: 12px;
+}
+.header-section-main-mobil .bar-yellow{
+height: 48px;
 }
 /*inicio css footer*/
 /*FOOTER*/
@@ -124,6 +133,14 @@ body{
 .boxFooter .boxFoter-content-text span{
     color: #ffffff;
     font-weight: bold;
+}
+.boxFooter .boxfooter-list{
+  position: relative;
+  bottom: 166px;
+}
+.boxFooter .boxfooter-icons-pago{
+  position: relative;
+  top: 490px;
 }
 /*-----*/
  /*INICIO SLIDER*/
@@ -229,7 +246,9 @@ body{
     font-size: 11px
   }
  }
-
+ .box-slider-principal .prev, .box-slider-principal .next{
+   visibility: visible;
+ }
     /*FIN SLIDER*/
 /**boxlistimg**/
 .box-slider-principal .box-list-img{
@@ -324,6 +343,7 @@ body{
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   padding-left: 18px;
+  width: 73%;
 }
 #box-list-slider .title-oferta{
   font-family: 'Montserrat';
@@ -331,7 +351,7 @@ body{
   padding-left: 18px;
 }
 .cardshow .title-oferta a{
-  font-size: 15px;
+  font-size: 11px;
   color: #0066CC;
   font-family: 'Lato', sans-serif;
   text-decoration: none;
@@ -381,6 +401,7 @@ body{
 #box-list-linea-econ #linea-econ .title-oferta a{
   color: #ffffff;
   font-size: 15px;
+  text-decoration: none;
 }
 #box-list-linea-econ .gallerynaranja .box-card {
   width: 202px;
@@ -398,6 +419,7 @@ body{
 #box-list-linea-econ .box-card .text-info {
   margin: 27px;
   margin-top: 2px;
+  color: #000;
 }
 #box-list-linea-econ .box-card .text-info span {
   font-size: 14px;
@@ -484,6 +506,7 @@ body{
 }
 #box-list-suscripcion .content-suscripcion .box-icons a {
   text-decoration: none;
+  color: #000;
 }
 #box-list-suscripcion .content-suscripcion .box-icons img {
   width: 5%;
@@ -499,8 +522,8 @@ body{
 }
 #box-list-suscripcion .content-suscripcion .box-cont-icon{
   text-align: left;
-    padding-bottom: 36px;
-    padding-left: 30px;
+  padding-bottom: 36px;
+  padding-left: 30px;
 }
 
 #box-list-suscripcion .content-suscripcion .box-formulario-dato .box-content-fd.box-cotizar {
@@ -604,17 +627,42 @@ body{
   text-transform: uppercase;
   font-size: 24px;
 
-}
+}/*
 .box-slider-principal, .carousel, .cardshow, #proteccion-respi,#lente-seguridad,.{
   width: 100%;
   background: #fff;
-}
+}*/
 .content-boxfooter-icons-pago{
   padding: 20px;
 }
 
+.flickity-prev-next-button.previous {
+  visibility: hidden;
+}
+#box-list-slider .flickity-slider {
+  margin-left: -8px;
+}
+#bios-desinf .flickity-slider,
+#box-list-proteccion-respi .flickity-slider,
+#box-list-lente-seguridad .flickity-slider,
+#box-list-calza-segur .flickity-slider{
+  margin-left: -115px;
+}
+.gallerynaranja .flickity-slider{
+  margin-left: -110px;
+}
 
+.carousel-cell {
+  counter-increment: carousel-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  content: counter(carousel-cell);
+
+}
 /*fin BLOQUE-FORMULARIO*/
+
 @media only screen and (min-width: 600px){
   
   .gallery{
@@ -636,10 +684,17 @@ body{
         display: none;
     }
     .boxHeader .box-content-bar{
-        padding: 10px 0px;
         background: #ffffff;
         display: block;
+        height: 40px;
     }
+    .content-bar-white{
+      padding: 8px 0px;
+    }
+    .boxHeader .header-section-main{
+      height: 80px;
+    }
+
     .boxHeader .header-section-main,
     .boxHeader .box-content-bar{
         Width: 100%;
@@ -673,10 +728,11 @@ body{
     }
     
     .boxHeader .header-section-main .search .search-btn{
-        position: absolute;
-        top: 11px;
-        right: -9px;
-        font-size: 19px;
+      position: absolute;
+      top: 16px;
+      right: 4px;
+      font-size: 19px;
+      border: none;
     }
     .boxHeader .header-section-main .search #search-home .form-control{
         max-width: 750px;
@@ -755,8 +811,9 @@ body{
         font-weight: 700;
         padding: 0 12px;
         font-size: 14px;
+        color: #000;
     }
-    
+
 /**/
 /*inicio css footer*/
     .boxFooter{
@@ -804,8 +861,18 @@ body{
       font-size: 19px;
       padding-bottom: 12px;
     }
+    
+    .boxFooter .boxfooter-list{
+      position: inherit;
+    }
+    .boxFooter .boxfooter-icons-pago{
+      position: inherit;
+    }
 /*----*/
 /*INICIO SLIDER*/
+    .cardshow .title-oferta a{
+      font-size: 15px;
+    }
     .box-slider-principal .slideshow-container .mySlides .img_mobil{
       display: none;
     }
@@ -832,12 +899,14 @@ body{
       font-size: 21px;
       padding-left: 18px;
       padding: 32px 0 13px 66px;
+      width: 40%;
     }
     #box-list-slider .title-oferta{
       font-family: 'Montserrat';
       font-size: 24px;
       font-style: italic;
-      padding: 32px 0 0 66px;
+      padding: 32px 0 0 105px;
+      width: 26%;
     }
     /*slider natanja*/
     #box-list-linea-econ{
@@ -846,7 +915,7 @@ body{
     #box-list-linea-econ .gallery {
       max-width: 1386px;
       position: absolute;
-      width: 72%;
+      width: 73%;
       right: 0;
       bottom: -21px;
     }
@@ -856,10 +925,8 @@ body{
       #box-list-linea-econ li{
         display: inline-block;
         position: relative;
-        
       }
       #box-list-linea-econ .carousel__slide.active{
-        
         position: relative;
       }
       #box-list-linea-econ .box-cardshow-lineco .box-card .content-imagen .imagen-central img{
@@ -971,7 +1038,7 @@ body{
 }
 
 #box-list-suscripcion .content-suscripcion .box-formulario-dato .box-formulario .form-container .input{
-    width: 42%;
+    width: 42.7%;
     display: inline-block;
     margin: 10px 0;
     margin-left: 5px;
@@ -989,6 +1056,10 @@ body{
   font-size: 24px;
 }
 
-
+#box-list-slider .flickity-slider{
+  margin-left: -46px;
+}
 /*---*/ 
 }
+
+
