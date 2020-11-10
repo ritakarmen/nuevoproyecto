@@ -34,9 +34,9 @@ body{
   padding: 10px;
 }
 .boxHeader .icons .btn-shopping a .icon-cart__badge {
-    position: absolute;
-    top: 12px;
-    right: 100px;
+    position: relative;
+    top: -17px;
+    right: 9px;
     margin-left: -5px;
     color: #000;
     background-color: #ffffff;
@@ -63,12 +63,15 @@ body{
     display: block;
     background: #F7EC00;
 }
+.boxHeader .header-section-main-mobil .btn-hamburgue{
+  padding-left: 9px;
+}
 .boxHeader .header-section-main-mobil .icons .btn-shopping,
 .boxHeader .header-section-main-mobil .icons .btn-profile,
 .boxHeader .header-section-main-mobil .icons .btn-hamburgue{
     display: inline-block;
     font-size: 20px;
-    padding-right: 12%;
+    /*padding-right: 12%;*/
 }
 .boxHeader .header-section-main-mobil .icons .btn-shopping a,
 .boxHeader .header-section-main-mobil .icons .btn-profile a,
@@ -343,7 +346,7 @@ height: 48px;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   padding-left: 18px;
-  width: 73%;
+  width: 65%;
 }
 #box-list-slider .title-oferta{
   font-family: 'Montserrat';
@@ -394,7 +397,7 @@ height: 48px;
   font-family: "Montserrat";
   font-style: italic;
   font-weight: bold;
-  width: 66%;
+  width: 65%;
   padding: 60px 0 0 20px;
 }
 
@@ -627,11 +630,7 @@ height: 48px;
   text-transform: uppercase;
   font-size: 24px;
 
-}/*
-.box-slider-principal, .carousel, .cardshow, #proteccion-respi,#lente-seguridad,.{
-  width: 100%;
-  background: #fff;
-}*/
+}
 .content-boxfooter-icons-pago{
   padding: 20px;
 }
@@ -761,10 +760,10 @@ height: 48px;
         display: inline-block;
     }
     .boxHeader .icons .btn-shopping a .icon-cart__badge {
-        color: #fff;
-        background-color: #000000;
-        top: -7px;
-        right: -6px;
+      color: #fff;
+      background-color: #000000;
+      top: -23px;
+      right: 14px;
     }
     .boxHeader .box-content-bar .box-category{
         width: 49%;
