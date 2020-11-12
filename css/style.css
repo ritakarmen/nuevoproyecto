@@ -272,7 +272,10 @@ height: 48px;
 .carousel {
   position: relative;
   max-width: 1440px;
-  width: 100%;    
+  width: 100%; 
+}
+.cardshow.carousel{
+  overflow-x: hidden;
 }
 .carousel .box-card {
   width: 298px;
@@ -663,11 +666,13 @@ height: 48px;
 /*fin BLOQUE-FORMULARIO*/
 
 @media only screen and (min-width: 600px){
-  
   .gallery{
     width: 1392px;
     overflow-x: hidden;
     margin-left: 48px;
+  }
+  .box-slider-principal .box-list-img .box-img {
+    width: calc(100%/3.04);
   }
     .boxHeader {
         background: #f7ec00;
@@ -843,7 +848,7 @@ height: 48px;
       width: 96%;
     }
     .boxFooter .paddigfooterwrite{
-      padding: 12px 24px;
+     /* padding: 12px 24px;*/
     }
     .boxFooter-content-bar-white .boxfooter-icons-pago{
       display: flex;
@@ -853,6 +858,7 @@ height: 48px;
       display: flex;
       width: 74%;
       margin: 26px;
+      padding: 0;
     }
 
     .boxFooter-content-bar-white .boxfooter-list .box-contact{
@@ -976,15 +982,14 @@ height: 48px;
         display: flex;
       }
       #box-list-linea-econ .box-cardshow-lineco{
-        position: relative;
-        right: 34%;
+
       }
       #box-list-linea-econ .box-cardshow-lineco .box-card{
         width: 298px;
         height: 409px;
-        left: 36px;
+        right: 151%;
         position: relative;
-        top: 21px;    
+        top: 14px;  
       }
       #box-list-linea-econ .gallerynaranja .box-card .text-info span {
         font-size: 14px;
@@ -1012,7 +1017,8 @@ height: 48px;
     font-weight: bold;
     display: flex;
     width: 39%;
-    padding: 38px 70px;
+    padding: 2% 3%;
+    text-align: center;
   }
   #box-list-suscripcion .content-suscripcion .box-icons img {
     width: 20%;
@@ -1066,5 +1072,88 @@ height: 48px;
 }
 /*---*/ 
 }
+@media only screen and (min-width: 600px){
+  .boxHeader .box-content-bar .box-category {
+    float: left;
+  }
 
+  .boxHeader .box-content-bar .bar-menu-horizontal {
+    float: right;
+    display: inherit;
+    margin-right: inherit;
+  }
+  .boxFooter-content-bar-white .boxfooter-list {
+    display: flex;
+    width: 64%;
+    margin: 26px;
+    padding: 0;
+  }
+  
+  #box-list-slider .title-oferta {
+      width: 46%;
+  }
+}
+@media only screen and (min-width: 900px){
+  .box-slider-principal .box-list-img .box-img {
+    width: 33%;
+    height: 100%;
+    max-width: 477px;
+    display: inline-block;
+  }
+  #box-list-linea-econ .box-cardshow-lineco .box-card {
+    width: 298px;
+    height: 409px;
+    right: 159%;
+    position: relative;
+    top: 14px;
+  }
+  #box-list-linea-econ .gallery {
+    max-width: 1386px;
+    position: absolute;
+    width: calc(100% - 349px);
+    right: 0;
+    bottom: -21px;
+  }
+  #box-list-linea-econ .title-oferta {
+    left: 28%;
+  }
+  .box-list-slider .title-oferta {
+    width: 27%;
+  }
+  .boxFooter-content-bar-white .boxfooter-icons-pago {
+    display: flex;
+    width: 36%;
+  }
+  .boxHeader .header-section-main .header-logo img {
+    left: -25px;
+  }
+}
+/*
+@media only screen and (min-width: 900px){
+      #box-list-linea-econ .title-oferta {
+        width: 59%;
+    }
+    #box-list-linea-econ .gallery {
+      max-width: 1386px;
+      position: absolute;
+      width: 66%;
+      right: 0;
+      bottom: -21px;
+  }
+  #box-list-linea-econ .gallery {
+    width: 67%;
+  }
+  #box-list-linea-econ .box-cardshow-lineco .box-card {
+    width: 298px;
+    height: 409px;
+    position: inherit;
+  }
+  #box-list-linea-econ .box-cardshow-lineco {
+    position: relative;
+    width: 31%;
+  }
 
+  #box-list-linea-econ .content-box-naranja {
+      display: block;
+  }
+}*/
