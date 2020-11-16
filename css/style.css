@@ -26,7 +26,24 @@ body{
     margin: 0 auto;
     text-align: center;
 }
+.bar-blue{
+  display: none;
+}
+#myHeader{
+      overflow: hidden;
+}
+.sticky {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  width: 100%;
 
+}
+
+/*.bar-blue.sticky{
+  display: block;
+  background: blue;
+}*/
 .boxHeader .header-section-main{
     position: relative;
 }
@@ -674,29 +691,35 @@ height: 48px;
   .box-slider-principal .box-list-img .box-img {
     width: calc(100%/3.04);
   }
+
     .boxHeader {
-        background: #f7ec00;
         margin: 0 auto;
         width: 100%;
         text-align: center;
-        max-Width: 1440px;
+
     }
     .boxHeader .header-section-main{
         display: inline-block;
+        height: 80px;
+        max-width: 1440px;
+        background:#f7ec00;
+    }
+    .boxHeader.sticky .header-section-main{
+      background: #000;
     }
     .boxHeader .header-section-main-mobil{
         display: none;
     }
     .boxHeader .box-content-bar{
+        margin: 0 auto;
         background: #ffffff;
         display: block;
-        height: 40px;
+        height: auto;
+        max-width: 1440px;
     }
     .content-bar-white{
       padding: 8px 0px;
-    }
-    .boxHeader .header-section-main{
-      height: 80px;
+      height: 27px;
     }
 
     .boxHeader .header-section-main,
@@ -730,6 +753,21 @@ height: 48px;
       position: relative;
       left: -45px;
     }
+    .boxHeader .header-section-main .header-logo .navbar-brand .logoyellow{
+      display: block;
+    }
+    .boxHeader .header-section-main .header-logo .navbar-brand .logoblack{
+      display: none;
+    }
+    .boxHeader.sticky .header-section-main .header-logo .navbar-brand .logoyellow{
+      display:none;
+    }
+    .boxHeader.sticky .header-section-main .header-logo .navbar-brand .logoblack{
+      display:block;
+    }
+    .boxHeader.sticky .header-section-main .search #search-home .form-control{
+      border: none;
+    }
     .boxHeader .header-section-main .search{
         width: 40%;
         text-align: center;
@@ -755,11 +793,14 @@ height: 48px;
     }
     .boxHeader .header-section-main .icons{
         width: 21%;
-        text-align: left;
+    }
+    .boxHeader .header-section-main .search #search-home .form-control:focus {
+       outline: none;
     }
     .boxHeader .header-section-main .icons .icons-btn{
-        display: inline-block;
+        float:left;
         position: relative;
+        top: 9px;
     }
     .boxHeader .header-section-main .icons .btn-profile a{
         font-size: 2rem;
@@ -769,11 +810,66 @@ height: 48px;
         margin: 0 20%;
         display: inline-block;
     }
+    .boxHeader .header-section-main .icons .btn-shopping .carrito{
+      display: block;
+    }
+    .boxHeader .header-section-main .icons .btn-shopping .carritofix{
+      display: none;
+    }
+    .boxHeader.sticky .header-section-main .icons .btn-shopping .carrito{
+      display: none;
+    }
+    .boxHeader.sticky  .header-section-main .icons .btn-shopping .carritofix{
+      display: block;
+    }
+    .boxHeader.sticky  .header-section-main .icons .icons-btn .fa-user-circle{
+      color:#fff;
+    }
+    .boxHeader .box-content-bar .bar-blue {
+      display: none;
+    }
+    .boxHeader.sticky .box-content-bar .bar-blue {
+      display: block;
+      background: #0066CC;
+      width:100%;
+      height: auto;
+      overflow-x: auto;
+    }
+    .boxHeader.sticky .box-content-bar .bar-blue .content-bar-blue{
+      overflow: hidden;
+      width: 90rem;
+    }
+    
+    .boxHeader.sticky .box-content-bar .icon-bar-blue {
+      width: 8%;
+      max-width: 81px;
+      display: inline-block;
+      color: #7fb2e5;
+      padding: 20px;
+    }
+    .boxHeader.sticky .box-content-bar .icon-bar-blue img{
+      display: block;
+      margin: 0 auto;
+    }
+    .boxHeader.sticky .box-content-bar .icon-bar-blue span{
+      font-size: 9.5px;
+      font-family: 'Lato', sans-serif;
+      text-align: center;
+    }
+    .boxHeader.sticky .box-content-bar .icon-bar-blue a{
+      color: inherit;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .boxHeader.sticky .box-content-bar .icon-bar-blue span:hover{
+      color:#fff;
+      cursor:pointer;
+    }
     .boxHeader .icons .btn-shopping a .icon-cart__badge {
       color: #fff;
       background-color: #000000;
-      top: -23px;
-      right: 14px;
+      top: -36px;
+      right: -18px;
     }
     .boxHeader .box-content-bar .box-category{
         width: 49%;

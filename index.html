@@ -12,20 +12,21 @@
     
 </head>
 <body class="page-principal">
-    <div class="boxHeader">
-        <!--fin desktop-->
+    <div class="boxHeader"  id="myHeader">
+        <!--desktop-->
         <div class="header-section-main">
             <div class="content-bar-yellow">
                 <div class="header-logo">
                     <a title="Savisafety" href="/" class="navbar-brand">
-                        <img src="images/logos/logoamarillo.png" alt="">
+                        <img class="logoyellow" src="images/logos/logoamarillo.png" alt="">
+                        <img class="logoblack" src="images/logos/logofixblack.png" alt="">
                     </a>
                 </div>
                 <div class="search">
                     <form id="search-home">
                         <div class="input-group-search">
                             <div class="input-group">
-                                <input type="search" name="q" placeholder="¿Qué estas buscando?" value="" autocomplete="off" class="form-control" autofocus="" maxlength="512">
+                                <input type="search" name="q" placeholder="¿Qué estas buscando?" value="" autocomplete="off" class="form-control" maxlength="512">
                                 <button type="submit" class="search-btn">
                                     <i class="fa fa-search fa-lg" aria-hidden="true"></i>
                                 </button>
@@ -36,7 +37,8 @@
                 <div class="icons">
                     <div class="icons-btn btn-shopping">
                         <a href="" class="navbar-link" >
-                            <img src="images/svg/carritoDesktop.svg" alt="">
+                            <img class="carrito" src="images/svg/carritoDesktop.svg" alt="">
+                            <img class="carritofix" src="images/svg/carritowhite.svg" alt="">
                             <small class="icon-cart__badge">0</small>
                         </a>
                     </div>
@@ -87,7 +89,7 @@
             </div>
         </div>
         <!--fin mobil-->
-        <div class="box-content-bar">
+        <div class="box-content-bar" >
             <div class="content-bar-white">
                 <div class="box-category">
                     <img src="images/png/subMenu.png" alt="">
@@ -118,6 +120,76 @@
                         </li>
                     </ul>
                 </nav>
+            </div>
+            <div class="bar-blue">
+                <div class="content-bar-blue">
+                    <div class="icon-bar-blue">
+                        <a href="#bios-desinf">
+                            <img src="images\svg\bar-blue\desinf-bios.svg">
+                            <span>DESINFECCION Y BIOSEGURIDAD</span>
+                        </a>
+                    </div>
+                    <div class="icon-bar-blue">
+                        <a href="#proteccion-respi">
+                            <img src="images\svg\bar-blue\Rectangle2.svg">
+                            <span>PROTECCIÓN RESPIRATORIA</span>
+                        </a>
+                    </div>
+                    <div class="icon-bar-blue">
+                        <a href="#lente-seguridad">
+                            <img src="images\svg\bar-blue\Rectangle3.svg">
+                            <span>LENTES DE SEGURIDAD</span>
+                        </a>
+                    </div>
+                    <div class="icon-bar-blue">
+                        <a href="#">
+                            <img src="images\svg\bar-blue\Rectangle4.svg">
+                            <span>ROPA TERMICA E IMPERMEABLE</span>
+                        </a>
+                    </div>
+                    <div class="icon-bar-blue">
+                        <a href="#">
+                            <img src="images\svg\bar-blue\Rectangle5.svg">
+                            <span>ROPA RESISTENTE A LAS LLAMAS</span>
+                        </a>
+                    </div>
+                    <div class="icon-bar-blue">
+                        <a href="#">
+                            <img src="images\svg\bar-blue\Rectangle6.svg">
+                            <span>ROPA DE ALTA VISIBILIDAD</span>
+                        </a>
+                    </div>
+                    <div class="icon-bar-blue">
+                        <a href="#">
+                            <img src="images\svg\bar-blue\Rectangle7.svg">
+                            <span>MAMELUCO DESCARTABLE</span>
+                        </a>
+                    </div>
+                    <div class="icon-bar-blue">
+                        <a href="#">
+                            <img src="images\svg\bar-blue\Rectangle8.svg">
+                            <span>ZAPATOS DE SEGURIDAD CAT</span>
+                        </a>
+                    </div>
+                    <div class="icon-bar-blue">
+                        <a href="#calza-segur">
+                            <img src="images\svg\bar-blue\calzadoseguridad.svg">
+                            <span>CALZADO DE SEGURIDAD</span>
+                        </a>
+                    </div>
+                    <div class="icon-bar-blue">
+                        <a href="#">
+                            <img src="images\svg\bar-blue\proteccabez.svg">
+                            <span>PROTECCION DE CABEZA</span>
+                        </a>
+                    </div>
+                    <div class="icon-bar-blue">
+                        <a href="#">
+                            <img src="images\svg\bar-blue\Rectangle10.svg">
+                            <span>PROTECCION CAÍDAS</span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -941,7 +1013,7 @@
         <!---Seccion PROTECCIÓN RESPIRATORIA-->
         <section id="box-list-proteccion-respi">
             <div id="proteccion-respi" class="carousel cardshow">
-                <h2 class="cardshow title-oferta">BIOSEGURIDAD Y DESINFECCIÓN <a href="#">VER TODO <i class="fa fa-chevron-right" aria-hidden="true"></i></a></h2>
+                <h2 class="cardshow title-oferta">PROTECCION RESPIRATORIA <a href="#">VER TODO <i class="fa fa-chevron-right" aria-hidden="true"></i></a></h2>
                 <button class="arrow prev">⇦</button>
                 <div class="gallery">
                   <ul class="images carousel" data-flickity='{ "groupCells": true }'>
@@ -1313,7 +1385,7 @@
         <!---Seccion LENTES DE SEGURIDAD-->
         <section id="box-list-lente-seguridad">
             <div id="lente-seguridad" class="carousel cardshow">
-                <h2 class="cardshow title-oferta">BIOSEGURIDAD Y DESINFECCIÓN <a href="#">VER TODO <i class="fa fa-chevron-right" aria-hidden="true"></i></a></h2>
+                <h2 class="cardshow title-oferta">LENTES DE SEGURIDAD <a href="#">VER TODO <i class="fa fa-chevron-right" aria-hidden="true"></i></a></h2>
                 <button class="arrow prev">⇦</button>
                 <div class="gallery">
                   <ul class="images carousel" data-flickity='{ "groupCells": true }'>
@@ -1896,7 +1968,7 @@
         <!---Seccion CALZADO DE SEGURIDAD-->
         <section id="box-list-calza-segur">
             <div id="calza-segur" class="carousel cardshow">
-                <h2 class="cardshow title-oferta">BIOSEGURIDAD Y DESINFECCIÓN <a href="#">VER TODO <i class="fa fa-chevron-right" aria-hidden="true"></i></a></h2>
+                <h2 class="cardshow title-oferta">CALZADO DE SEGURIDAD <a href="#">VER TODO <i class="fa fa-chevron-right" aria-hidden="true"></i></a></h2>
                 <button class="arrow prev">⇦</button>
                 <div class="gallery">
                   <ul class="images carousel" data-flickity='{ "groupCells": true }'>
