@@ -117,6 +117,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  text-decoration: none;
 }
 
 #marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-list-marca .content-producto .box-producto .box-img-inferior .btn-select .car-yellow {

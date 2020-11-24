@@ -1,40 +1,23 @@
-#marcas.page-principal{
+#categorias.page-principal{
     .boxBody{
-        .box-slider-marcas{
-            .slideshow-container{
-                .list-dot {
-                    position: relative;
-                    bottom: 31px;
-                    left: initial;
-                    text-align: center;
-                }
-                .mySlides{
-                    .contentdiv{
-                        width: 100%;
-                        background:  #E6E6E6;
-                        .contentdiv-marca{
-                            width: 100%;
-                            margin: auto;
-                            text-align: center;
-                            padding: 35px 0 70px 0;
-                            .box-marca{
-                                display: inline-block;
-                                width: 48%;
-                                .content-img-marca{
-                                    max-width: 185px;
-                                    height: 135px;
-                                    display: inline-block;
-                                    margin: 6px;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        #box-list-marcas{
+        #box-list-register{
             padding: 10px;
             overflow:hidden;
+            .box-content-register{
+                .box-register{
+                    .content-img-cat{
+                        display: flex;
+                        background: #f1f1f3;
+                        img{
+                            float: left;
+                            width: 50%;
+                        };
+                    }
+                }
+                .box-lista-filtro{
+                    display: none;
+                }
+            }
             .box-content-list{
                 margin: 10px auto;
                 width: 100%;
@@ -117,23 +100,40 @@
                         }
                     }
                 }
-                .content-marca{
-                    margin-top: 10px;
-                    width: 100%;
-                    float: left;
-                    .box-marca{
-                        border: 0.158902px solid #B8B8B8;
-                        border-radius: 6.35609px;
-                        text-align: center;
-                        padding: 20px;
-                        img{
-                            width: 82px;
-                        }
-                        a{
-                            font-size: 13px;
-                            font-weight: 600;
-                            text-decoration: underline;
-                            color: #131212;
+            }
+        }
+        .box-te-puede-interesar{
+            .carousel{
+                .gallery{
+                    .carousel{
+                        .carousel-cell{
+                            text-align: center;
+                            a{
+                                .box-card{
+                                    margin-bottom: 6px;
+                                    .content-imagen{
+                                        .imagen-central{
+                                            img{
+                                                width: 145px;
+                                            }
+                                        }
+                                    }
+                                    .text-info{
+                                        text-align: left;
+                                    }
+                                }
+                            }
+                            button{
+                                background: #000;
+                                padding: 12px 20px;
+                                font-weight: 600;
+                                font-size: 12px;
+                                line-height: 11px;
+                                color: #F7EC00;
+                                border-radius: 11px;
+                                width: 230px;
+                                cursor: pointer;
+                            }
                         }
                     }
                 }
@@ -143,13 +143,12 @@
 }
 
 @media only screen and (min-width: 600px) {
-    #marcas.page-principal{
+    #categorias.page-principal{
         .boxBody{
             .box-slider-marcas{
                 .slideshow-container{
                     .mySlides{
                         .contentdiv{
-                            background: #F7EC00;
                             .contentdiv-marca{
                                 max-width: 1193px;
                                 .box-marca{
@@ -164,12 +163,46 @@
                     }
                 }
             }
-            #box-list-marcas{
+            #box-list-register{
+                overflow: hidden;
+                padding: 10px 53px;
+                .box-content-register{
+                    width: 20%;
+                    float: left;
+                    background: #f1f1f3;
+                    .box-register{
+                        .content-img-cat{
+
+                        }
+                    }
+                    .box-lista-filtro{
+                        padding: 20px;
+                        display: block;
+                        h3{
+                            padding: 20px 0;
+                        }
+                        .content-list-filtra{
+                            list-style-type: none;
+                            li{
+                                .sub-lista-filtro{
+                                    list-style-type: none;
+                                    list-style-type: none;
+                                    border-top: 1px solid #ccb9b9;
+                                    padding: 20px 0;
+                                    a{
+                                        font-size: 12px;
+                                        color: #000;
+                                        text-decoration: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
                 .box-content-list{
-                    width: 100%;
-                    margin-top: 10px;
+                    width: 80%;
+                    float: right;
                     .content-list{
-                        width: 84%;
                         float: right;
                         .content-list-marca {
                             display: inline-block;
@@ -179,7 +212,6 @@
                             margin-left: 2%;
                             .content-producto{
                                 .box-producto{
-                                    min-height: 413px;
                                     .box-img-superior{
                                         img{
                                             width: 54px;
@@ -201,7 +233,7 @@
                                     }
                                     .box-img-inferior {
                                         background-color: #fafafa;
-                                        padding: 10px 41px;
+                                        padding: 10px 30px;
                                         border: 1px solid #b5afaf;
 
                                         .btn-select {
