@@ -744,7 +744,7 @@ height: 48px;
         width: 30%;
         text-align: right;
         position: relative;
-      right: 39px;
+        right: 15px;
     }
     .boxHeader .header-section-main .header-logo img{
       width: 100%;
@@ -1177,6 +1177,7 @@ height: 48px;
     float: right;
     display: inherit;
     margin-right: inherit;
+    margin-right: 20px;
   }
   .boxFooter-content-bar-white .boxfooter-list {
     display: flex;

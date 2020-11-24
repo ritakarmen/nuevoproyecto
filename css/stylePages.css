@@ -100,12 +100,12 @@
   background-color: #131212;
   font-size: 8px;
   border-radius: 5px;
-  padding: 4px 26px;
+  padding: 6px 16px;
   text-align: center;
   margin-top: 10px;
 }
 
-#marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-list-marca .content-producto .box-producto .box-img-inferior span {
+#marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-list-marca .content-producto .box-producto .box-img-inferior .btn-select {
   font-family: 'Montserrat', sans-serif;
   font-size: 9px;
   font-style: normal;
@@ -114,11 +114,18 @@
   letter-spacing: 0em;
   text-align: center;
   color: #F7EC00;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-#marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-list-marca .content-producto .box-producto .box-img-inferior span img {
+#marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-list-marca .content-producto .box-producto .box-img-inferior .btn-select .car-yellow {
   width: 10px;
   margin-right: 5px;
+}
+
+#marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-list-marca .content-producto .box-producto .box-img-inferior .btn-select .car-black {
+  display: none;
 }
 
 #marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-marca {
@@ -159,14 +166,71 @@
   #marcas.page-principal .boxBody .box-slider-marcas .slideshow-container .mySlides .contentdiv .contentdiv-marca .box-marca .content-img-marca {
     display: inline-block;
   }
-  #marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-list-marca {
+  #marcas.page-principal .boxBody #box-list-marcas .box-content-list {
+    width: 100%;
+    margin-top: 10px;
+  }
+  #marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-list {
+    width: 84%;
+    float: right;
+  }
+  #marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-list .content-list-marca {
     display: inline-block;
     margin-top: 10px;
-    width: calc(100%/4.5);
     max-width: 260px;
+    width: calc(100%/4.5);
+    margin-left: 2%;
+  }
+  #marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-list .content-list-marca .content-producto .box-producto {
+    min-height: 413px;
+  }
+  #marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-list .content-list-marca .content-producto .box-producto .box-img-superior img {
+    width: 54px;
+  }
+  #marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-list .content-list-marca .content-producto .box-producto .box-img-superior i {
+    font-size: 22px;
+  }
+  #marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-list .content-list-marca .content-producto .box-producto .box-img-centro img {
+    max-width: 190px;
+  }
+  #marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-list .content-list-marca .content-producto .box-producto .box-img-centro .name-product {
+    font-size: 14px;
+  }
+  #marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-list .content-list-marca .content-producto .box-producto .box-img-centro .text-precio {
+    font-size: 14px;
+  }
+  #marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-list .content-list-marca .content-producto .box-producto .box-img-inferior {
+    background-color: #fafafa;
+    padding: 10px 41px;
+    border: 1px solid #b5afaf;
+  }
+  #marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-list .content-list-marca .content-producto .box-producto .box-img-inferior .btn-select {
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+  }
+  #marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-list .content-list-marca .content-producto .box-producto .box-img-inferior .btn-select .car-yellow {
+    display: none;
+  }
+  #marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-list .content-list-marca .content-producto .box-producto .box-img-inferior .btn-select .car-black {
+    display: block;
+    width: 16px;
+    margin-right: 15px;
   }
   #marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-marca {
-    width: 14%;
+    width: 13%;
+    float: right;
+  }
+  #marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-marca .box-marca {
+    padding: 188px 0;
+  }
+  #marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-marca .box-marca img {
+    display: block;
+    margin: auto;
+  }
+  #marcas.page-principal .boxBody #box-list-marcas .box-content-list .content-marca .box-marca span {
+    display: block;
+    margin: auto;
   }
 }
 /*# sourceMappingURL=stylePages.css.map */
