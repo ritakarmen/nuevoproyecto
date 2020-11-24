@@ -69,7 +69,7 @@ body{
 }
 .boxHeader .header-section-main-mobil .header-logo{
     display: inline-block;
-    margin-right: 37px;
+    /*margin-right: 37px;*/
 }
 .boxHeader .header-section-main-mobil .icons{
     display: inline-block;
