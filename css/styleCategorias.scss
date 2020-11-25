@@ -4,7 +4,36 @@
             padding: 10px;
             overflow:hidden;
             .box-content-register{
-                .box-register{
+                width: 100%;
+                background: #f1f1f3;
+                .box-lista-filtro{
+                    padding: 20px;
+                    display: block;
+                    h3{
+                        padding: 20px 0;
+                    }
+                    .content-list-filtra{
+                        list-style-type: none;
+                        li{
+                            .sub-lista-filtro{
+                                list-style-type: none;
+                                list-style-type: none;
+                                border-top: 1px solid #ccb9b9;
+                                padding: 20px 0;
+                                a{
+                                    font-size: 12px;
+                                    color: #000;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .box-content-list{
+                margin: 10px auto;
+                width: 100%;
+                .box-bar-grey{
                     .content-img-cat{
                         display: flex;
                         background: #f1f1f3;
@@ -14,86 +43,81 @@
                         };
                     }
                 }
-                .box-lista-filtro{
-                    display: none;
-                }
-            }
-            .box-content-list{
-                margin: 10px auto;
-                width: 100%;
-                .content-list-marca{
-                    display: inline-block;
-                    margin-top: 10px;
-                    width: 49%;
-                   /* &:nth-child(even){
-                        float: right;
-                    }*/
-                    .content-producto{
-                        border: 0.158902px solid #B8B8B8;
-                        box-sizing: border-box;
-                        border-radius: 6.35609px;
-                        /*max-width: 165px;*/
-                        padding: 10px;
-                        .box-producto{
-                            .box-img-superior{
-                                i{
-                                    float: right;
-                                }
-                            }
-                            .box-img-centro{
-                                text-align: center;
-                                img{
-                                    max-width: 120px;
-                                }
-                                .name-product{
-                                    font-family: 'Montserrat', sans-serif;
-                                    font-size: 9px;
-                                    font-style: normal;
-                                    font-weight: 500;
-                                    line-height: 13px;
-                                    letter-spacing: 0em;
-                                    text-align: left;
-                                    margin: 33px 0;
-                                }
-                                .text-precio{
-                                    font-size: 15px;
-                                    font-family: 'Montserrat', sans-serif;
-                                    font-weight: 600;
-                                    text-align: left;
-                                }
-                                .circle-color{
-                                    display: block;
-                                    background: #444444;
-                                    width: 20px;
-                                    height: 20px;
-                                    border-radius: 50%;
-                                    margin: 8px 0;
-                                }
-                            }
-                            .box-img-inferior{
-                                background-color: #131212;
-                                font-size: 8px;
-                                border-radius: 5px;
-                                padding: 6px 16px;
-                                text-align: center;
-                                margin-top: 10px;
-                                .btn-select{
-                                    font-family: 'Montserrat', sans-serif;
-                                    font-size: 9px;
-                                    font-style: normal;
-                                    font-weight: 600;
-                                    line-height: 14px;
-                                    letter-spacing: 0em;
-                                    text-align: center;
-                                    color: #F7EC00;
-                                    display: flex;
-                                    text-decoration: none;
-                                    .car-yellow{
-                                        width: 10px;
-                                        margin-right: 5px;
+                .content-list{
+                    .content-list-marca{
+                        display: inline-block;
+                        margin-top: 10px;
+                        width: 49%;
+                       /* &:nth-child(even){
+                            float: right;
+                        }*/
+                        .content-producto{
+                            border: 0.158902px solid #B8B8B8;
+                            box-sizing: border-box;
+                            border-radius: 6.35609px;
+                            /*max-width: 165px;*/
+                            padding: 10px;
+                            .box-producto{
+                                .box-img-superior{
+                                    i{
+                                        float: right;
                                     }
-                                    .car-black{
-                                        display: none;
+                                }
+                                .box-img-centro{
+                                    text-align: center;
+                                    img{
+                                        max-width: 120px;
+                                    }
+                                    .name-product{
+                                        font-family: 'Montserrat', sans-serif;
+                                        font-size: 9px;
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        line-height: 13px;
+                                        letter-spacing: 0em;
+                                        text-align: left;
+                                        margin: 33px 0;
+                                    }
+                                    .text-precio{
+                                        font-size: 15px;
+                                        font-family: 'Montserrat', sans-serif;
+                                        font-weight: 600;
+                                        text-align: left;
+                                    }
+                                    .circle-color{
+                                        display: block;
+                                        background: #444444;
+                                        width: 20px;
+                                        height: 20px;
+                                        border-radius: 50%;
+                                        margin: 8px 0;
+                                    }
+                                }
+                                .box-img-inferior{
+                                    background-color: #131212;
+                                    font-size: 8px;
+                                    border-radius: 5px;
+                                    padding: 6px 16px;
+                                    text-align: center;
+                                    margin-top: 10px;
+                                    .btn-select{
+                                        font-family: 'Montserrat', sans-serif;
+                                        font-size: 9px;
+                                        font-style: normal;
+                                        font-weight: 600;
+                                        line-height: 14px;
+                                        letter-spacing: 0em;
+                                        text-align: center;
+                                        color: #F7EC00;
+                                        display: flex;
+                                        text-decoration: none;
+                                        .car-yellow{
+                                            width: 10px;
+                                            margin-right: 5px;
+                                        }
+                                        .car-black{
+                                            display: none;
+                                        }
                                     }
                                 }
                             }
@@ -164,44 +188,17 @@
                 }
             }
             #box-list-register{
-                overflow: hidden;
                 padding: 10px 53px;
                 .box-content-register{
-                    width: 20%;
                     float: left;
-                    background: #f1f1f3;
-                    .box-register{
-                        .content-img-cat{
-
-                        }
-                    }
-                    .box-lista-filtro{
-                        padding: 20px;
-                        display: block;
-                        h3{
-                            padding: 20px 0;
-                        }
-                        .content-list-filtra{
-                            list-style-type: none;
-                            li{
-                                .sub-lista-filtro{
-                                    list-style-type: none;
-                                    list-style-type: none;
-                                    border-top: 1px solid #ccb9b9;
-                                    padding: 20px 0;
-                                    a{
-                                        font-size: 12px;
-                                        color: #000;
-                                        text-decoration: none;
-                                    }
-                                }
-                            }
-                        }
-                    }
+                    width: 20%;
                 }
                 .box-content-list{
                     width: 80%;
                     float: right;
+                    .box-bar-grey{
+
+                    }
                     .content-list{
                         float: right;
                         .content-list-marca {
@@ -253,22 +250,6 @@
                                 }
                             }
                         }
-                    }
-                    .content-marca {
-                        width: 13%;
-                        float: right;
-                        .box-marca {
-                            padding: 188px 0;
-                            img{
-                                display: block;
-                                margin: auto;
-                            }
-                            span{
-                                display: block;
-                                margin: auto;
-                            }
-                        }
-                        
                     }
                 }
             }
