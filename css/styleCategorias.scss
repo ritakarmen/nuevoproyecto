@@ -1,5 +1,30 @@
 #categorias.page-principal{
+    .box-content-bar-blue-mobil{
+        display: block;
+        background: #0066CC;
+        color: #fff;
+        width: 100%;
+        height: 18px;
+        text-align: left;
+        padding: 16px;
+    }
     .boxBody{
+        .box-content-bar{
+            .box-category{
+                .img-bar-blue{
+                    display: none;
+                }
+            }
+            .bar-menu-horizontal{
+                li{
+                    a{
+                        .icon-bar-blue{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
         .box-header{
             .cont-box-header{
                 padding: 20px;
@@ -245,6 +270,67 @@
 
 @media only screen and (min-width: 769px) {
     #categorias.page-principal{
+        .boxHeader{
+            .box-content-bar{
+                background: #0066CC;
+                color: #ffffff;
+                .box-category{
+                    img{
+                        display: none;
+                    }
+                    .img-bar-blue{
+                        display: inline-block;
+                    }
+                }
+                .bar-menu-horizontal{
+                    a{
+                        color: #ffffff;
+                    }
+                    img{
+                        display: none;
+                    }
+                    .icon-bar-blue{
+                        display: inline-block;
+                    }
+                }
+            }
+            .box-content-bar-blue-mobil{
+                display: none;
+            }
+            .header-section-main{
+                background: #000000;
+                .content-bar-yellow{
+                    .header-logo{
+                        .navbar-brand{
+                            .logoyellow{
+                                display: none;
+                            }
+                            .logoblack{
+                                display: block;
+                            }
+                        }
+                    }
+                    .icons{
+                        .icons-btn{
+                            .navbar-link{
+                                .carrito{
+                                    display: none;
+                                }
+                                .carritofix{
+                                    display: block;
+                                }
+                            }
+                        }
+                        .btn-profile{
+                            a{
+                                color: #ffffff;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
         .boxBody{
             .box-header{
                 .cont-box-header{

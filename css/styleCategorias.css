@@ -1,3 +1,21 @@
+#categorias.page-principal .box-content-bar-blue-mobil {
+  display: block;
+  background: #0066CC;
+  color: #fff;
+  width: 100%;
+  height: 18px;
+  text-align: left;
+  padding: 16px;
+}
+
+#categorias.page-principal .boxBody .box-content-bar .box-category .img-bar-blue {
+  display: none;
+}
+
+#categorias.page-principal .boxBody .box-content-bar .bar-menu-horizontal li a .icon-bar-blue {
+  display: none;
+}
+
 #categorias.page-principal .boxBody .box-header .cont-box-header {
   padding: 20px;
 }
@@ -263,6 +281,46 @@
 }
 
 @media only screen and (min-width: 769px) {
+  #categorias.page-principal .boxHeader .box-content-bar {
+    background: #0066CC;
+    color: #ffffff;
+  }
+  #categorias.page-principal .boxHeader .box-content-bar .box-category img {
+    display: none;
+  }
+  #categorias.page-principal .boxHeader .box-content-bar .box-category .img-bar-blue {
+    display: inline-block;
+  }
+  #categorias.page-principal .boxHeader .box-content-bar .bar-menu-horizontal a {
+    color: #ffffff;
+  }
+  #categorias.page-principal .boxHeader .box-content-bar .bar-menu-horizontal img {
+    display: none;
+  }
+  #categorias.page-principal .boxHeader .box-content-bar .bar-menu-horizontal .icon-bar-blue {
+    display: inline-block;
+  }
+  #categorias.page-principal .boxHeader .box-content-bar-blue-mobil {
+    display: none;
+  }
+  #categorias.page-principal .boxHeader .header-section-main {
+    background: #000000;
+  }
+  #categorias.page-principal .boxHeader .header-section-main .content-bar-yellow .header-logo .navbar-brand .logoyellow {
+    display: none;
+  }
+  #categorias.page-principal .boxHeader .header-section-main .content-bar-yellow .header-logo .navbar-brand .logoblack {
+    display: block;
+  }
+  #categorias.page-principal .boxHeader .header-section-main .content-bar-yellow .icons .icons-btn .navbar-link .carrito {
+    display: none;
+  }
+  #categorias.page-principal .boxHeader .header-section-main .content-bar-yellow .icons .icons-btn .navbar-link .carritofix {
+    display: block;
+  }
+  #categorias.page-principal .boxHeader .header-section-main .content-bar-yellow .icons .btn-profile a {
+    color: #ffffff;
+  }
   #categorias.page-principal .boxBody .box-header .cont-box-header .box-header-title-sup ul li {
     font-size: 14px;
   }
