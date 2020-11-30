@@ -58,10 +58,10 @@
                 }
             }
         }
-        /*inicio slider*/
+
         .box-content-detalle1{
             font-family: 'Lato';
-            margin: 10px;
+            margin: 30px;
             .box-title-prod{
                 padding: 10px 0;
                 .title-sm{
@@ -116,6 +116,7 @@
                         }
                     }
                     .box-list-img{
+                        text-align: center;
                         .box-img {
                             width: 18%;
                             border: 0.5px solid #808080;
@@ -240,254 +241,269 @@
                     }
                 }
             }
+            .box-detall{
+                .content-box-detall{
+                    margin: 20px 0;
+                    .title-content-box-detall{
+                        font-size: 12px;
+                        font-family: 'Lato';
+                        border-bottom: 1px solid rgb(175, 171, 171);
+                        margin: 10px 0;
+                        padding-bottom: 5px;
+                    }
+                    .texto-box-detall{
+                        padding-bottom: 10px;
+                        p{
+                            font-size: 12px;
+                            font-family: 'Montserrat', sans-serif;
+                            line-height: 17px;
+                            a{
+                                color: #0066CC;
+                            }
+                        }
+                        img{
+
+                        }
+                    }
+                }
+            }
+            .box-opinion{
+                background: #F1F1F3;
+                border-radius: 8px;
+                .content-box-opinion{
+                    padding: 30px;
+                    .title-box-opinion{
+                        font-weight: bolder;
+                        font-size: 44.6347px;
+                        text-align: center;
+                        font-family: 'Lato';
+                    }
+                    .list-start{
+                        text-align: center;
+                        .start-yellow{
+                            color: #FFC000;
+                        }
+                    }
+                    .msj-gris{
+                        text-align: center;
+                    }
+                    .cont-list-start{  
+                        .Cont-puntua{
+                            width: 100%;
+                            display: -webkit-box;
+                            display: -ms-flexbox;
+                            display: flex;
+                            max-width: 230px;
+                            margin: 10px auto 1px;
+                            p{
+                                font-size: 13px;
+                                width: 20%;
+                                span{
+                                    color: #FFC000;
+                                }
+                                display: inline-block;
+                            }
+                            .num{
+                                font-size: 10px;
+                            }
+                            .a-meter {
+                                background: white;
+                                border-radius: 13px;
+                                width: 169px;
+                                display: inline-block;
+                                height: 9px;
+                                margin: auto;
+                                .a-meter-bar {
+                                    background-color: #FFC000;
+                                    width: 71%;
+                                    height: 9px;
+                                    border-radius: 10px;
+                                }
+                            }
+                        }
+                    } 
+                    .link-blue{
+                        color: #0066CC;
+                        text-align: center;
+                        font-size: 10px;
+                    }
+                    .title-name{
+                        font-size: 12px;
+                        margin-top: 20px;
+                    } 
+                    .list-start{
+                        text-align: left;
+                        margin-bottom: 10px;
+                    }
+                    .text-link{
+                        color: #0066CC;
+                        font-size: 10px;
+                    }                      
+                }
+            }
         }
         /*fin slider*/
+
 
     }
 }
 
 @media only screen and (min-width: 769px) {
     #detalle1.page-principal{
-        .boxHeader{
-            .box-content-bar{
-                background: #0066CC;
-                color: #ffffff;
-                .box-category{
-                    img{
-                        display: none;
+        .boxBody{
+            .box-content-detalle1{
+                .box-title-prod{
+                    width: 45%;
+                    float: right;
+                    border-bottom: 1px solid #d8d0d0;
+                    margin-bottom: 27px;
+                    .list-start {
+                        padding: 10px 0;
                     }
-                    .img-bar-blue{
-                        display: inline-block;
+                    .title-sm {
+                        font-size: 14px;
                     }
-                }
-                .bar-menu-horizontal{
-                    a{
-                        color: #ffffff;
-                    }
-                    img{
-                        display: none;
-                    }
-                    .icon-bar-blue{
-                        display: inline-block;
+                    .title-big {
+                        font-size: 24px;
                     }
                 }
-            }
-            .box-content-bar-blue-mobil{
-                display: none;
-            }
-            .header-section-main{
-                background: #000000;
-                .content-bar-yellow{
-                    .header-logo{
-                        .navbar-brand{
-                            .logoyellow{
-                                display: none;
-                            }
-                            .logoblack{
-                                display: block;
-                            }
-                        }
-                    }
-                    .icons{
-                        .icons-btn{
-                            .navbar-link{
-                                .carrito{
-                                    display: none;
-                                }
-                                .carritofix{
-                                    display: block;
+                .box-slider-principal.box-slider-show{
+                    width: 49%;
+                    float: left;
+                    .content-box-show{
+                        .slideshow-container{
+                            .mySlides{
+                                .contentdiv{
+                                    img{
+                                        margin: 48px auto;
+                                        width: 377px;
+                                    }
                                 }
                             }
                         }
-                        .btn-profile{
-                            a{
-                                color: #ffffff;
+                    }
+                }
+                .box-detall-prod{
+                    .det-product{ 
+                        p {
+                            font-size: 27px;
+                            padding: 10px 0 30px;
+                            display: flex;
+                            span{
+                                font-size: 12px;
+                                padding: 8px;
+                                border-radius: 10px;
+                            }
+                        }
+                    }
+                    .box-list-prod{
+                        margin-bottom: 20px;
+                        .box-prod{
+                            padding: 5px;
+                            margin: 1%;
+                            width: 30%;
+                            span {
+                                font-size: 12px;
+                                vertical-align: -12px;
+                            }
+                            img{
+                                max-width: 60px;
+                                float: left;
+                            }
+                        }
+                    }
+                    .box-select-talla{
+                        margin-bottom: 20px;
+                        h2{
+                            margin-bottom: 27px;
+                        }
+                        #filter_box_sizes{
+                            margin: 17px 0;
+                            .conte-filter-new{
+                                .filters-checkboxgroup-body{
+                                    label{
+                                        width: 40px;
+                                        border-radius: 12px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .box-envio{
+                    float: right;
+                    width: 40%;
+                    margin: 40px 0;
+                    .content-box-envio{
+                        padding: 8px 40px;
+                        .bx-ctn{
+                            font-size: 13px;
+                            padding-bottom: 12px;
+                            p{
+                                float: left;
+                                margin-right: 12px;
+                                img{
+                                    width: inherit;
+                                }
+                            }
+                            img{
+                                width: 77px;
+                            }
+                        }
+                    }
+                }
+                .box-detall{
+                    .content-box-detall{
+                       .title-content-box-detall{
+                        font-size: 18px;
+                        line-height: 23px;
+                       } 
+                       .texto-box-detall{
+                           p{
+                            font-size: 16px;
+                            line-height: 32px;
+                           }
+                       }
+                    }
+                }
+                .box-opinion{
+                    float: right;
+                    width: 40%;
+                    height: 668px;
+                    .content-box-opinion{
+                        .conmtent-left{
+                            margin: 0 auto;
+                            display: inline-block;
+                            text-align: center;
+                            padding: 0 38px;
+                            .title-box-opinion{
+    
+                            }
+                            .list-start.center-list{
+                                text-align: center;
                             }
 
+                        }
+                        .cont-list-start{
+                            float: right;
+                        }
+                        .content-center{
+                            float: right;
                         }
                     }
                 }
             }
         }
-        .boxBody{
-            .box-header{
-                .cont-box-header{
 
-                    .box-header-title-sup{
-                        ul{
-                            li{
-                                font-size: 14px;
-                            }
-                        }
-                    }
-                    .box-header-title-inf{
-                        h1{
-                            font-size: 24px;
-                        }
-                        span{
-                            position: relative;
-                            font-size: 10px;
-                            float: right;
-                            top: -24px;
-                            font-size: 14px;
-                            a{
-                                font-size: 14px;
-                            }
-                        }
-                    }
-                }
-            }
-            .box-slider-marcas{
-                .slideshow-container{
-                    .mySlides{
-                        .contentdiv{
-                            .contentdiv-marca{
-                                max-width: 1193px;
-                                .box-marca{
-                                    display: block;
-                                    width: 100%;
-                                    .content-img-marca{
-                                        display: inline-block;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            #box-list-register{
-                padding: 1% 3%;
-                .box-content-register{
-                    display: block;
-                    float: left;
-                    width: 18.5%;
-                    .box-lista-filtro{
-                        .content-filtro{
-                            .content-list-filtra{
-                                li{
-                                    .sub-lista-filtro{
-                                        li{
-                                            .marcas{
-                                                font-size: 16px;
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-                .box-content-list{
-                    width: 80.5%;
-                    float: right;
-                    .box-bar-grey{
-                        width: 99.5%;
-                        /*float: right;*/
-                        display: flex;
-                        .content-bar-grey-mobil{
-                            display: none;
-                        }
-                        .content-bar-grey-desktop{
-                            padding: 20px;
-                            display: block;
-                            height: 20px;
-                            width: 100%;
-                            margin-bottom: 10px;
-                            ul{
-                                list-style: none;
-                                li{
-                                    float: left;
-                                    padding: 0 2%;
-                                    font-size: 16px;
-                                    &:first-child{
-                                        padding: 0;
-                                        font-weight: bold;
-                                    }
-                                    &:last-child{
-                                        float: right;
-                                        padding: 0;
-                                        font-size: 14px;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    .content-list{
-                        .content-list-marca {
-                            /*float: right;*/
-                            margin-top: 10px;
-                            width: calc(100%/4.2);
-                            max-width: 260px;
-                            margin-right: 1%;
-                            &:last-child {
-                                margin-right: 0;
-                            }
-                            .content-producto{
-                                &:hover{
-                                    box-shadow: 0px -3.98277px 19.9139px rgba(0, 0, 0, 0.08), 0px 3.98277px 19.9139px rgba(0, 0, 0, 0.08);
-                                }
-                                .box-producto{
-                                    .box-img-superior{
-                                        img{
-                                            width: 54px;
-                                        }
-                                        i{
-                                            font-size: 22px;
-                                        }
-                                    }
-                                    .box-img-centro{
-                                        img{
-                                            max-width: 190px;
-                                            width: 100%;
-                                        }
-                                        .name-product{
-                                            font-size: 14px;
-                                        }
-                                        .text-precio{
-                                            font-size: 14px;
-                                        }
-                                    }
-                                    .box-img-inferior {
-                                        background-color: #fafafa;
-                                        padding: 10px 30px;
-                                        border: 1px solid #b5afaf;
-                                        &:hover {
-                                            background: #000;
-                                            .btn-select {
-                                                color:#F7EC00;
-                                                .car-yellow{
-                                                    display: block;
-                                                    width: 16px;
-                                                    margin-right: 15px;
-                                                }
-                                                .car-black{
-                                                    display:none;
-                                                }
-                                            }
-                                        }
-                                        .btn-select {
-                                            font-size: 14px;
-                                            color: #000000;
-                                            text-decoration: none;
-                                            .car-yellow{
-                                                display:none;
-                                            }
-                                            .car-black{
-                                                display: block;
-                                                width: 16px;
-                                                margin-right: 15px;
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            .box-te-puede-interesar{
-                display: none;
-            }
+        .box-detall-prod{
+            width: 45%;
+            float: right;
+        }
+
+
+        .box-detall{
+            float: left;
+            width: 40%;
         }
     }
 }
