@@ -107,6 +107,11 @@
   max-width: 545px;
 }
 
+#detalle1.page-principal .boxBody .box-content-detalle1 .box-slider-principal.box-slider-show .content-box-show .slideshow-container .mySlides .contentdiv i {
+  position: absolute;
+  right: 0;
+}
+
 #detalle1.page-principal .boxBody .box-content-detalle1 .box-slider-principal.box-slider-show .content-box-show .slideshow-container .mySlides .contentdiv img {
   display: block;
   width: 219px;
@@ -136,6 +141,60 @@
   display: inline-block;
   margin-right: 13px;
   margin: 20px 0;
+}
+
+#detalle1.page-principal .boxBody .box-content-detalle1 .box-cant-prod {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: -448px;
+  background: #fff;
+  padding: 10px;
+}
+
+#detalle1.page-principal .boxBody .box-content-detalle1 .box-cant-prod .content-box-cant-prod {
+  width: 100%;
+}
+
+#detalle1.page-principal .boxBody .box-content-detalle1 .box-cant-prod .content-box-cant-prod .box-contador {
+  width: 45%;
+  float: left;
+  display: inline-block;
+}
+
+#detalle1.page-principal .boxBody .box-content-detalle1 .box-cant-prod .content-box-cant-prod .box-contador .conteo .add-prod .btn-add-prod {
+  float: left;
+  width: 28px;
+  height: 35px;
+}
+
+#detalle1.page-principal .boxBody .box-content-detalle1 .box-cant-prod .content-box-cant-prod .box-contador .conteo .result {
+  width: 46px;
+  height: 35px;
+  float: left;
+  text-align: center;
+}
+
+#detalle1.page-principal .boxBody .box-content-detalle1 .box-cant-prod .content-box-cant-prod .box-canasta {
+  width: 44%;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+#detalle1.page-principal .boxBody .box-content-detalle1 .box-cant-prod .content-box-cant-prod .box-canasta button {
+  background: #000;
+  padding: 6px 5px;
+  font-size: 12px;
+  line-height: 11px;
+  color: #F7EC00;
+  border-radius: 11px;
+  width: 156px;
+  cursor: pointer;
+}
+
+#detalle1.page-principal .boxBody .box-content-detalle1 .box-cant-prod .content-box-cant-prod .box-canasta button img {
+  width: 20px;
 }
 
 #detalle1.page-principal .boxBody .box-content-detalle1 .det-product p {
@@ -356,6 +415,39 @@
   font-size: 10px;
 }
 
+#detalle1.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel {
+  height: 431px;
+  max-width: initial;
+}
+
+#detalle1.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell {
+  text-align: center;
+}
+
+#detalle1.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell a .box-card {
+  margin-bottom: 6px;
+}
+
+#detalle1.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell a .box-card .content-imagen .imagen-central img {
+  width: 145px;
+}
+
+#detalle1.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell a .box-card .text-info {
+  text-align: left;
+}
+
+#detalle1.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell button {
+  background: #000;
+  padding: 12px 20px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 11px;
+  color: #F7EC00;
+  border-radius: 11px;
+  width: 230px;
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 769px) {
   #detalle1.page-principal .boxHeader .box-content-bar {
     background: #0066CC;
@@ -416,9 +508,25 @@
     width: 49%;
     float: left;
   }
+  #detalle1.page-principal .boxBody .box-content-detalle1 .box-slider-principal.box-slider-show .content-box-show .slideshow-container .mySlides .contentdiv i {
+    top: -48px;
+    font-size: 24px;
+  }
   #detalle1.page-principal .boxBody .box-content-detalle1 .box-slider-principal.box-slider-show .content-box-show .slideshow-container .mySlides .contentdiv img {
     margin: 48px auto;
     width: 377px;
+  }
+  #detalle1.page-principal .boxBody .box-content-detalle1 .box-cant-prod {
+    width: 38.5%;
+    padding: 20px;
+    position: inherit;
+    margin: auto;
+  }
+  #detalle1.page-principal .boxBody .box-content-detalle1 .box-cant-prod .content-box-cant-prod .box-contador .conteo .add-prod .btn-add-prod {
+    width: 35px;
+  }
+  #detalle1.page-principal .boxBody .box-content-detalle1 .box-cant-prod .content-box-cant-prod .box-contador .conteo .result {
+    width: 46px;
   }
   #detalle1.page-principal .boxBody .box-content-detalle1 .box-detall-prod .det-product p {
     font-size: 27px;
@@ -465,6 +573,7 @@
     float: right;
     width: 44%;
     margin: 40px 0;
+    margin-right: 49px;
   }
   #detalle1.page-principal .boxBody .box-content-detalle1 .box-envio .content-box-envio {
     padding: 30px 40px;
@@ -496,6 +605,7 @@
   #detalle1.page-principal .boxBody .box-content-detalle1 .box-opinion {
     float: right;
     width: 44%;
+    margin-right: 49px;
   }
   #detalle1.page-principal .boxBody .box-content-detalle1 .box-opinion .content-box-opinion {
     padding: 30px 46px;
