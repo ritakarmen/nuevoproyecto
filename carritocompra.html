@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="css/styleCarritoCompra.css">
+    <title>SaviSafety</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body id="carritoCompra" class="page-principal" >
+    <div class="boxHeader"  id="myHeader">
+        <!--desktop-->
+        <div class="header-section-main">
+            <div class="content-bar-yellow">
+                <div class="header-logo">
+                    <a title="Savisafety" href="/" class="navbar-brand">
+                        <img class="logoyellow" src="images/logos/logoamarillo.png" alt="">
+                        <img class="logoblack" src="images/logos/logofixblack.png" alt="">
+                    </a>
+                </div>
+                <div class="search">
+                    <form id="search-home">
+                        <div class="input-group-search">
+                            <div class="input-group">
+                                <input type="search" name="q" placeholder="¿Qué estas buscando?" value="" autocomplete="off" class="form-control" maxlength="512">
+                                <button type="submit" class="search-btn">
+                                    <i class="fa fa-search fa-lg" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="icons">
+                    <div class="icons-btn btn-shopping">
+                        <a href="" class="navbar-link" >
+                            <img class="carrito" src="images/svg/carritoDesktop.svg" alt="">
+                            <img class="carritofix" src="images/svg/carritowhite.svg" alt="">
+                            <small class="icon-cart__badge">0</small>
+                        </a>
+                    </div>
+                    <div class="icons-btn btn-profile">
+                        <a href="" class="navbar-link">
+                            <i class="far fa-user-circle"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--fin desktop-->
+        <!--mobil-->
+        <div class="header-section-main-mobil">
+            <div class="content-bar-black content-bar-int">
+                <div class="header-logo">
+                    <a title="Savisafety" href="/" class="navbar-brand">
+                        <img src="images/logos/logonegro.png" alt="">
+                    </a>
+                </div>
+                <div class="icons">
+                    <div class="icons-btn btn-shopping">
+                        <a href="" class="navbar-link" >
+                            <img src="images/svg/carritoMobil.svg" alt="">
+                            <small class="icon-cart__badge">0</small>
+                        </a>
+                    </div>
+                    <div class="icons-btn btn-profile">
+                        <a href="" class="navbar-link">
+                            <i class="far fa-user-circle"></i>
+                        </a>
+                    </div>
+                    <div class="icons-btn btn-hamburgue">
+                        <a href="" class="navbar-link">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="search bar-yellow">
+                <form id="search-home">
+                    <div class="input-group-search">
+                        <div class="input-group">
+                            <input type="search" name="q" placeholder="¿Qué estas buscando?" value="" autocomplete="off" class="form-control" autofocus="" maxlength="512">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--fin mobil-->
+        <div class="box-content-bar" >
+            <div class="content-bar-white">
+                <div class="box-category">
+                    <img src="images/png/subMenu.png" alt="">
+                    <img class="img-bar-blue" src="images/png/iconblue.png" alt="">
+                    <span>categorias</span>
+                    <!--<nav class="bar-menu-vertical">
+                        <ul>
+                            <li>
+                                <a href=""></a>
+                            </li>
+                            <li>
+                                <a href=""></a>
+                            </li>
+                        </ul>
+                    </nav>-->
+                </div>
+                <nav class="bar-menu-horizontal">
+                    <ul>
+                        <li>
+                            <a href="">sobre nosotros</a>
+                        </li>
+                        <li>
+                            <a href="">contactanos</a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/svg/car.svg" />
+                                <img class="icon-bar-blue" src="images/svg/carbluebar.svg" />
+                                sigue tu pedido</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!--<div class="bar-blue">
+                <div class="content-bar-blue">
+                    <div class="icon-bar-blue">
+                        <a href="#gturro">
+                            <img src="images\svg\bar-blue\desinf-bios.svg">
+                            <span>DESINFECCION Y BIOSEGURIDAD</span>
+                        </a>
+                    </div>
+                    <div class="icon-bar-blue">
+                        <a href="#proteccion-respi">
+                            <img src="images\svg\bar-blue\Rectangle2.svg">
+                            <span>PROTECCIÓN RESPIRATORIA</span>
+                        </a>
+                    </div>
+                    <div class="icon-bar-blue">
+                        <a href="#lente-seguridad">
+                            <img src="images\svg\bar-blue\Rectangle3.svg">
+                            <span>LENTES DE SEGURIDAD</span>
+                        </a>
+                    </div>
+                    <div class="icon-bar-blue">
+                        <a href="#">
+                            <img src="images\svg\bar-blue\Rectangle4.svg">
+                            <span>ROPA TERMICA E IMPERMEABLE</span>
+                        </a>
+                    </div>
+                    <div class="icon-bar-blue">
+                        <a href="#">
+                            <img src="images\svg\bar-blue\Rectangle5.svg">
+                            <span>ROPA RESISTENTE A LAS LLAMAS</span>
+                        </a>
+                    </div>
+                    <div class="icon-bar-blue">
+                        <a href="#">
+                            <img src="images\svg\bar-blue\Rectangle6.svg">
+                            <span>ROPA DE ALTA VISIBILIDAD</span>
+                        </a>
+                    </div>
+                    <div class="icon-bar-blue">
+                        <a href="#">
+                            <img src="images\svg\bar-blue\Rectangle7.svg">
+                            <span>MAMELUCO DESCARTABLE</span>
+                        </a>
+                    </div>
+                    <div class="icon-bar-blue">
+                        <a href="#">
+                            <img src="images\svg\bar-blue\Rectangle8.svg">
+                            <span>ZAPATOS DE SEGURIDAD CAT</span>
+                        </a>
+                    </div>
+                    <div class="icon-bar-blue">
+                        <a href="#calza-segur">
+                            <img src="images\svg\bar-blue\calzadoseguridad.svg">
+                            <span>CALZADO DE SEGURIDAD</span>
+                        </a>
+                    </div>
+                    <div class="icon-bar-blue">
+                        <a href="#">
+                            <img src="images\svg\bar-blue\proteccabez.svg">
+                            <span>PROTECCION DE CABEZA</span>
+                        </a>
+                    </div>
+                    <div class="icon-bar-blue">
+                        <a href="#">
+                            <img src="images\svg\bar-blue\Rectangle10.svg">
+                            <span>PROTECCION CAÍDAS</span>
+                        </a>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+        <div class="box-content-bar-blue-mobil" >
+            <div class="content-bar-white">
+                <div class="box-category">
+                    <img class="img-bar-blue" src="images/png/iconblue.png" alt="">
+                    <span>categorias</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CONTENT DETALLE-1 -->
+    <div class="boxBody content">
+        <!---box header  DETALLE-1-->
+        <section class="box-header">
+            <div class="cont-box-header">
+                <div class="box-header-title-sup">
+                    <ul>
+                        <li>Inicio <i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                        <li>
+                            <strong>Calzado de seguridad</strong> 
+                        </li>
+                    </ul>
+                </div>
+                <div class="box-header-title-inf">
+                    <h1>Calzado de seguridad</h1>
+                    <span>
+                        ¿No sabes qué calzado escoger?
+                        <a href="">Te ayudamos</a>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <!--BOX-CARITO COMPRA-->
+        <section class="box-seccion box-content-carritocompra">
+            <div class="box-carrito">
+                <div class="content-box-carrito">
+                    <div class="img-box-carrito">
+                        <div class="content-img">
+                            <img src="images\png\carrito-compra\casco-imagen.png" alt="">
+                        </div>
+                    </div>
+                    <div class="text-box-carrito">
+                        <div class="content-text">
+                            <div class="box-title-prod">
+                                <p class="title-sm">PORTWEST</p>
+                                <h1 class="title-big"> Casco de seguridad color transparente PV64C</h1>
+                                <p class="title-sm">
+                                    <span class="title">Color seleccionado:</span>
+                                    <span class="circle-color"></span>
+                                    <a href="">cambiar</a>
+                                </p>
+                                <p class="title-sm">
+                                    <span class="title">Talla seleccionada:</span>
+                                    <span class="square-talla">37</span>
+                                    <a href="">cambiar</a>
+                                </p>
+                            </div>
+                            <div class="det-product">
+                                <p>S/.37.00 </p>
+                            </div>
+                            <div class="box-contador">
+                                <div class="conteo">
+                                    <div class="add-prod">
+                                        <button class="btn-add-prod" type="button">
+                                            <div>-</div>
+                                        </button>
+                                    </div>
+                                    <input type="text" class="result" readonly="" value="1">
+                                    <div class="add-prod">
+                                        <button class="btn-add-prod" type="button">
+                                            <div>+</div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="">
+                                <img src="images\png\carrito-compra\Group.png"> Guía de tallas calzado Deltaplus
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        
+    
+        <!---Seccion TE PUEDE INTERESAR-->
+        <section id="box-list-calza-segur" class="box-te-puede-interesar">
+            <div id="calza-segur" class="carousel cardshow">
+                <h2 class="cardshow title-oferta">TE PUEDE INTERESAR </h2>
+                <button class="arrow prev">⇦</button>
+                <div class="gallery">
+                  <ul class="images carousel" data-flickity='{ "groupCells": true }'>
+                    <li class="carousel-cell">
+                        <a href="#">
+                            <div class="box-card">
+                                <div class="content-imagen">
+                                    <div class="marca-mensaje">
+                                        <img class="marca-producto" src="images/png/pages-categoria/DeltaPlus.png">
+                                        <!--<span class="mensaje1">42% DSCTO</span>-->
+                                    </div>
+                                    <div class="imagen-central">
+                                        <img src="images/png/pages-categoria/imagenCateg.png">
+                                    </div>
+                                </div>
+                                <div class="text-info">
+                                    <span class="text-tacha">s/40.00</span>
+                                    <strong>S/27.60</strong>
+                                    <span>Alcohol gel antibacterial Neutro sin triglosan (100ml)</span>
+                                </div>
+                            </div>
+                        </a>
+                        <button>
+                            Agregar pedido
+                        </button>
+                    </li>
+                    <li class="carousel-cell">
+                        <a href="#">
+                            <div class="box-card">
+                                <div class="content-imagen">
+                                    <div class="marca-mensaje">
+                                        <img class="marca-producto" src="images/png/pages-marca/3m-marca-logo.png">
+                                        <!--<span class="mensaje1">42% DSCTO</span>-->
+                                    </div>
+                                    <div class="imagen-central">
+                                        <img src="images/png/pages-marca/marcaFila1 (3).png">
+                                    </div>
+                                </div>
+                                <div class="text-info">
+                                    <span class="text-tacha">s/40.00</span>
+                                    <strong>S/27.60</strong>
+                                    <span>Alcohol gel antibacterial Neutro sin triglosan (100ml)</span>
+                                </div>
+                            </div>
+                        </a>
+                        <button>
+                            Agregar pedido
+                        </button>
+                    </li>
+                    <li class="carousel-cell">
+                        <a href="#">
+                            <div class="box-card">
+                                <div class="content-imagen">
+                                    <div class="marca-mensaje">
+                                        <img class="marca-producto" src="images/png/pages-categoria/DeltaPlus.png">
+                                        <!--<span class="mensaje1">42% DSCTO</span>-->
+                                    </div>
+                                    <div class="imagen-central">
+                                        <img src="images/png/pages-categoria/imagenCateg.png">
+                                    </div>
+                                </div>
+                                <div class="text-info">
+                                    <span class="text-tacha">s/40.00</span>
+                                    <strong>S/27.60</strong>
+                                    <span>Alcohol gel antibacterial Neutro sin triglosan (100ml)</span>
+                                </div>
+                            </div>
+                        </a>
+                        <button>
+                            Agregar pedido
+                        </button>
+                    </li>
+                    <li class="carousel-cell">
+                        <a href="#">
+                            <div class="box-card">
+                                <div class="content-imagen">
+                                    <div class="marca-mensaje">
+                                        <img class="marca-producto" src="images/png/pages-marca/3m-marca-logo.png">
+                                        <!--<span class="mensaje1">42% DSCTO</span>-->
+                                    </div>
+                                    <div class="imagen-central">
+                                        <img src="images/png/pages-marca/marcaFila1 (3).png">
+                                    </div>
+                                </div>
+                                <div class="text-info">
+                                    <span class="text-tacha">s/40.00</span>
+                                    <strong>S/27.60</strong>
+                                    <span>Alcohol gel antibacterial Neutro sin triglosan (100ml)</span>
+                                </div>
+                            </div>
+                        </a>
+                        <button>
+                            Agregar pedido
+                        </button>
+                    </li>
+                    <li class="carousel-cell">
+                        <a href="#">
+                            <div class="box-card">
+                                <div class="content-imagen">
+                                    <div class="marca-mensaje">
+                                        <img class="marca-producto" src="images/png/pages-categoria/DeltaPlus.png">
+                                        <!--<span class="mensaje1">42% DSCTO</span>-->
+                                    </div>
+                                    <div class="imagen-central">
+                                        <img src="images/png/pages-categoria/imagenCateg.png">
+                                    </div>
+                                </div>
+                                <div class="text-info">
+                                    <span class="text-tacha">s/40.00</span>
+                                    <strong>S/27.60</strong>
+                                    <span>Alcohol gel antibacterial Neutro sin triglosan (100ml)</span>
+                                </div>
+                            </div>
+                        </a>
+                        <button>
+                            Agregar pedido
+                        </button>
+                    </li>
+                    <li class="carousel-cell">
+                        <a href="#">
+                            <div class="box-card">
+                                <div class="content-imagen">
+                                    <div class="marca-mensaje">
+                                        <img class="marca-producto" src="images/png/pages-marca/3m-marca-logo.png">
+                                        <!--<span class="mensaje1">42% DSCTO</span>-->
+                                    </div>
+                                    <div class="imagen-central">
+                                        <img src="images/png/pages-marca/marcaFila1 (3).png">
+                                    </div>
+                                </div>
+                                <div class="text-info">
+                                    <span class="text-tacha">s/40.00</span>
+                                    <strong>S/27.60</strong>
+                                    <span>Alcohol gel antibacterial Neutro sin triglosan (100ml)</span>
+                                </div>
+                            </div>
+                        </a>
+                        <button>
+                            Agregar pedido
+                        </button>
+                    </li>
+                  </ul>
+                </div>
+                <button class="arrow next">⇨</button>
+              </div>
+        </section>
+        <!---Seccion  Suscripcion-->
+        <section id="box-list-suscripcion">
+             <div class="content-suscripcion">
+                 <div class="box-icons">
+                    <div class="box-cont-icon border-left">
+                        <a href="">
+                           <img src="images/svg/icon-ubic3.svg">
+                           <span>SEGUIMIENTO DE COMPRA</span>
+                        </a>
+                    </div>
+                    <div class="box-cont-icon border-left">
+                        <a href="">
+                           <img src="images/svg/icon-ubic4.svg">
+                           <span>ASESORÍA EN LÍNEA</span>
+                        </a>
+                    </div>
+                    <div class="box-cont-icon border-left">
+                        <a href="">
+                           <img src="images/svg/icon-ubic1.svg">
+                           <span>MÉTODOS DE PAGO</span>
+                        </a>
+                    </div>
+                    <div class="box-cont-icon">
+                        <a href="">
+                           <img src="images/svg/icon-ubic2.svg">
+                           <span>TARIFAS DE ENVÍO</span>
+                        </a>
+                    </div>
+                 </div>
+                 <div class="box-formulario-dato">
+                    <div class="box-content-fd box-cotizar">
+                        <div class="content-box-cotizar">
+                            <h2>SOLUCIÓN A TU MEDIDA</h2>
+                            <p>Te ayudamos a seleccionar el EPP ideal de acuerdo a tus necesidades y presupuesto.</p>
+                            <button class="btn-cotzar">
+                                Solicitar cotización <img src="images/svg/proximo.svg">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="box-content-fd box-formulario">
+                        <div class="content-box-formulario">
+                            <h2>¿Necesitas asesoría?</h2>
+                            <h2>Nos comunicamos contigo</h2>
+                            <div class="form">
+                                <form class="form-container" action="">
+                                    <input class="input" type="text" required="required" id="ruc"  placeholder="Número RUC"/>
+                                    <input class="input" type="text" required="required" id="mobil" placeholder="Número de teléfono" />
+                                    <input class="input mail" type="email" required="required" id="email" placeholder="Ingresar correo electrónico" />
+                                    <input class="btn-enviar" type="submit" value="Enviar" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+        </section>
+    </div>
+    <!--Footer-->
+    <footer class="boxFooter content">
+        <div class="boxFooter-content-bar-white paddigfooterwrite">
+            <div class="boxfooter-icons-pago">
+                <div class="content-boxfooter-icons-pago">                    
+                    <h2>PAGO SEGURO</h2>
+                    <img src="images/svg/image 10.svg">
+                    <img src="images/svg/visa-logo 1.svg">
+                    <img src="images/svg/image 26.svg">
+                    <img src="images/svg/image 28.svg">
+                    <img src="images/svg/image 27.svg">
+                </div>
+            </div>
+            <div class="boxfooter-list">
+                <div class="box-contact">
+                    <h2>ATENCIÓN AL CLIENTE</h2>
+                    <ul>
+                        <li>
+                            <a>Políticas y condiciones</a>
+                        </li>
+                        <li>
+                            <a>Solicitar Cotización</a>
+                        </li>
+                        <li>
+                            <a>Preguntas frecuentes</a>
+                        </li>
+                        <li>
+                            <a>Recomiendanos y gana</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box-contact">
+                    <h2>NOSOTROS</h2>
+                    <ul>
+                        <li>
+                            <a>Nuestra historia</a>
+                        </li>
+                        <li>
+                            <a>Acerca de la empresa</a>
+                        </li>
+                        <li>
+                            <a>¿Por qué elegirnos?</a>
+                        </li>
+                        <li>
+                            <a>Nuestros clientes</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box-contact">
+                    <h2>ATENCIÓN AL CLIENTE</h2>
+                    <ul>
+                        <li>
+                            <a>Teléfonos: 981 568 561 / 989 248 200 </a>
+                        </li>
+                        <li>
+                            <a>Teléfono fijo: (01)6919930 </a>
+                        </li>
+                        <li>
+                            <a>Correo: ventas@jrimplementos.com</a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/svg/Path.svg"/>
+                            </a>
+                            <a href="">
+                                <img src="images/svg/LinkedIN.svg"/>
+                            </a>
+                            <a href="">
+                                <img src="images/svg/Youtube.svg"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="boxFoter-content-text">
+            <span>SAVI GROUP © 2020 - TODOS LOS DERECHOS RESERVADOS</span>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <!--<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>-->
+</body>
+</html>
+<!--fffff-->

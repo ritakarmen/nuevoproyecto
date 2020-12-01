@@ -1,0 +1,229 @@
+#carritoCompra.page-principal .box-content-bar-blue-mobil {
+  display: block;
+  background: #0066CC;
+  color: #fff;
+  width: 100%;
+  height: 18px;
+  text-align: left;
+  padding: 16px;
+}
+
+#carritoCompra.page-principal .boxBody {
+  /*fin slider*/
+}
+
+#carritoCompra.page-principal .boxBody .box-content-bar .box-category .img-bar-blue {
+  display: none;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-bar .bar-menu-horizontal li a .icon-bar-blue {
+  display: none;
+}
+
+#carritoCompra.page-principal .boxBody .box-header .cont-box-header {
+  padding: 10px;
+}
+
+#carritoCompra.page-principal .boxBody .box-header .cont-box-header .box-header-title-sup ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#carritoCompra.page-principal .boxBody .box-header .cont-box-header .box-header-title-sup ul li {
+  float: left;
+  padding-left: 5px;
+  font-size: 10px;
+}
+
+#carritoCompra.page-principal .boxBody .box-header .cont-box-header .box-header-title-inf h1 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  border-bottom: 1px solid;
+  padding: 20px 0 10px;
+}
+
+#carritoCompra.page-principal .boxBody .box-header .cont-box-header .box-header-title-inf span {
+  font-size: 10px;
+}
+
+#carritoCompra.page-principal .boxBody .box-header .cont-box-header .box-header-title-inf span a {
+  text-decoration: none;
+  color: #0066CC;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra {
+  margin: 30px;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #d7d4d4;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .img-box-carrito {
+  max-height: 74px;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .img-box-carrito .content-img {
+  padding: 10px;
+  border: 0.66px solid #E6E6E6;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .img-box-carrito .content-img img {
+  max-width: 66px;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito {
+  width: 80%;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text {
+  padding: 0 20px;
+  font-size: 10px;
+  line-height: 18px;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .box-title-prod .title-sm {
+  font-size: 10px;
+  padding-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .box-title-prod .title-sm .circle-color {
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 25px;
+  margin: 7px;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .box-title-prod .title-sm .square-talla {
+  background: #efefef;
+  padding: 8px 10px;
+  border-radius: 9px;
+  margin: 0 10px;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .box-title-prod .title-sm .title {
+  padding: 6px 0;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .box-title-prod .title-sm a {
+  margin: 7px 0;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .box-title-prod .title-big {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .det-product {
+  padding: 10px 0;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .box-contador .conteo .add-prod button {
+  width: 43px;
+  height: 43px;
+  float: left;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .box-contador .conteo .result {
+  float: left;
+  width: 43px;
+  height: 43px;
+  text-align: center;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text a {
+  float: left;
+  color: #0066CC;
+  margin: 15px 0;
+}
+
+#carritoCompra.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel {
+  height: 431px;
+  max-width: initial;
+}
+
+#carritoCompra.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell {
+  text-align: center;
+}
+
+#carritoCompra.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell a .box-card {
+  margin-bottom: 6px;
+}
+
+#carritoCompra.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell a .box-card .content-imagen .imagen-central img {
+  width: 145px;
+}
+
+#carritoCompra.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell a .box-card .text-info {
+  text-align: left;
+}
+
+#carritoCompra.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell button {
+  background: #000;
+  padding: 12px 20px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 11px;
+  color: #F7EC00;
+  border-radius: 11px;
+  width: 230px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 769px) {
+  #carritoCompra.page-principal .boxHeader .box-content-bar {
+    background: #0066CC;
+    color: #ffffff;
+  }
+  #carritoCompra.page-principal .boxHeader .box-content-bar .box-category img {
+    display: none;
+  }
+  #carritoCompra.page-principal .boxHeader .box-content-bar .box-category .img-bar-blue {
+    display: inline-block;
+  }
+  #carritoCompra.page-principal .boxHeader .box-content-bar .bar-menu-horizontal a {
+    color: #ffffff;
+  }
+  #carritoCompra.page-principal .boxHeader .box-content-bar .bar-menu-horizontal img {
+    display: none;
+  }
+  #carritoCompra.page-principal .boxHeader .box-content-bar .bar-menu-horizontal .icon-bar-blue {
+    display: inline-block;
+  }
+  #carritoCompra.page-principal .boxHeader .box-content-bar-blue-mobil {
+    display: none;
+  }
+  #carritoCompra.page-principal .boxHeader .header-section-main {
+    background: #000000;
+  }
+  #carritoCompra.page-principal .boxHeader .header-section-main .content-bar-yellow .header-logo .navbar-brand .logoyellow {
+    display: none;
+  }
+  #carritoCompra.page-principal .boxHeader .header-section-main .content-bar-yellow .header-logo .navbar-brand .logoblack {
+    display: block;
+  }
+  #carritoCompra.page-principal .boxHeader .header-section-main .content-bar-yellow .icons .icons-btn .navbar-link .carrito {
+    display: none;
+  }
+  #carritoCompra.page-principal .boxHeader .header-section-main .content-bar-yellow .icons .icons-btn .navbar-link .carritofix {
+    display: block;
+  }
+  #carritoCompra.page-principal .boxHeader .header-section-main .content-bar-yellow .icons .btn-profile a {
+    color: #ffffff;
+  }
+}
+/*# sourceMappingURL=styleCarritoCompra.css.map */

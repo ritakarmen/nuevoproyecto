@@ -528,6 +528,9 @@
   #detalle1.page-principal .boxBody .box-content-detalle1 .box-cant-prod .content-box-cant-prod .box-contador .conteo .result {
     width: 46px;
   }
+  #detalle1.page-principal .boxBody .box-content-detalle1 .box-cant-prod .content-box-cant-prod .box-canasta button {
+    padding: 7px 10px;
+  }
   #detalle1.page-principal .boxBody .box-content-detalle1 .box-detall-prod .det-product p {
     font-size: 27px;
     padding: 10px 0 30px;

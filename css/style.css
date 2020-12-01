@@ -95,6 +95,7 @@ body{
 .boxHeader .header-section-main-mobil .icons .btn-profile a,
 .boxHeader .header-section-main-mobil .icons .btn-hamburgue a{
     color: #ffffff;
+    text-decoration: none;
 }
 .boxHeader .header-section-main,
 .boxHeader .box-content-bar{
