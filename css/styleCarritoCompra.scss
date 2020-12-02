@@ -62,6 +62,9 @@
         .box-content-carritocompra{
             margin: 30px;
             .box-carrito{
+                .bar-grey-title{
+                    display: none;
+                }
                 .content-box-carrito{
                     display: flex;
                     border-bottom: 1px solid #d7d4d4;
@@ -89,12 +92,38 @@
                                     font-size: 10px;
                                     padding-bottom: 10px;
                                     display: flex;
-                                    .circle-color{
-                                        width: 20px;
+                                label{
+                                    margin: -7px 12px;
+                                    .option-input {
+                                        -webkit-appearance: none;
+                                        -moz-appearance: none;
+                                        -ms-appearance: none;
+                                        -o-appearance: none;
+                                        appearance: none;
+                                        position: relative;
+                                        top: 13.33333px;
+                                        right: 0;
+                                        bottom: 0;
+                                        left: 0;
                                         height: 20px;
-                                        background: red;
-                                        border-radius: 25px;
-                                        margin: 7px;
+                                        width: 20px;
+                                        background: #e04056;
+                                        color: #fff;
+                                        cursor: pointer;
+                                        display: inline-block;
+                                        outline: none;
+                                        position: relative;
+                                        z-index: 1000;
+                                      }
+                                    .option-input:hover {
+                                        border: 2.5px solid #e04056;
+                                      }
+                                    .option-input:checked {
+                                        border: 2px solid #e04056;
+                                      }
+                                    .option-input.radio {
+                                        border-radius: 50%;
+                                      }
                                     }
                                     .square-talla{
                                         background: #efefef;
@@ -114,71 +143,171 @@
                                     padding-bottom: 10px;
                                 }
                             }
-                            .det-product{
+                            .content-box-det-prec{
+                                .det-product{
                                 padding: 10px 0;
-                            }
-                            .box-contador{
-                                .conteo{
-                                    .add-prod{
-                                        button{
+                                }
+                                .box-contador{
+                                    .conteo{
+                                        .add-prod{
+                                            button{
+                                                width: 43px;
+                                                height: 43px;
+                                                float: left;
+                                            }
+                                        }
+                                        .result{
+                                            float: left;
                                             width: 43px;
                                             height: 43px;
-                                            float: left;
+                                            text-align: center;
                                         }
                                     }
-                                    .result{
-                                        float: left;
-                                        width: 43px;
-                                        height: 43px;
-                                        text-align: center;
-                                    }
+                                }
+                                .sum-product{
+                                    display: none;
+                                }
+                                a{
+                                    float: left;
+                                    color: #0066CC;
+                                    margin: 15px 0;
                                 }
                             }
-                            a{
-                                float: left;
-                                color: #0066CC;
-                                margin: 15px 0;
+                        }
+                    }
+                }
+            }
+            .pago-seguro{
+                width: 100%;
+                .content-pago-seguro{
+                    text-align: center;
+                    padding: 40px 0;
+                }
+            }
+            .resum-pedid{
+                .content-resum-pedid{
+                    background: #FFFFFF;
+                    border: 0.449323px solid #F1F1F3;
+                    box-sizing: border-box;
+                    box-shadow: 0px 3.59458px 8.98645px rgba(0, 0, 0, 0.05);
+                    border-radius: 8.98645px;
+                    padding: 40px 25px;
+                    h1{
+                        font-size: 16.1756px;
+                        line-height: 14px;
+                        margin-bottom: 40px;
+                    }
+                    p{
+                        width: 100%;
+                        display: block;
+                        margin-bottom: 23px;
+                        .bar-left{
+                            font-size: 14px;
+                        }
+                        .bar-right{
+                            font-size: 16px;
+                            float: right;
+                        }
+                        a{
+                            color: #0066CC;
+                            ;
+                        }
+                        #cupon-desc{
+                            margin: 20px 0;
+                            background: #FFFFFF;
+                            border: 0.449323px solid #B8B8B8;
+                            box-sizing: border-box;
+                            border-radius: 8.98645px;
+                            padding: 10px 30px;
+                        }
+                    }
+                    .box-descto{
+                        background: #27AE60;
+                        padding: 20px;
+                        color: #fff;
+                    }
+                    .mont-total{
+                        border-top: 1px solid grey;
+                        padding-top: 32px;
+                        text-align: center;
+                        font-size: 14.3783px;
+                    }
+                    .Proceso-compra{
+                        background: #E6E6E6;
+                        border-radius: 10px;
+                        padding: 20px 40px;
+                        color: grey;
+                        font-size: 14px;
+                        border: 1px solid #c8c4c4;
+                        width: 100%;
+                        }
+                }
+            }
+            .box-asesor{
+                width: 80%;
+                margin: 40px auto;
+                .content-asesor{
+                    background: #F7EC00;;
+                    border: 0.449323px solid #F1F1F3;
+                    box-sizing: border-box;
+                    box-shadow: 0px 3.59458px 8.98645px rgba(0, 0, 0, 0.05);
+                    border-radius: 8.98645px;
+                    padding: 40px 25px;
+                    h1{
+                        font-weight: bold;
+                        font-size: 10.7837px;
+                        text-align: center;
+                        margin-bottom: 20px;
+                    }
+                    ul{
+                        list-style-type: none;
+                        li{
+                            font-size: 10.7837px;
+                            line-height: 22px;
+                            margin-bottom: 12px;
+                            img{
+                                width: 12px;
                             }
                         }
                     }
                 }
             }
         }
+    }
         /*fin slider*/
-        .box-te-puede-interesar{
-            .carousel{
-                .gallery{
-                    .carousel{
-                        height: 431px;
-                        max-width: initial;
-                        .carousel-cell{
-                            text-align: center;
-                            a{
-                                .box-card{
-                                    margin-bottom: 6px;
-                                    .content-imagen{
-                                        .imagen-central{
-                                            img{
-                                                width: 145px;
-                                            }
+    .box-te-puede-interesar{
+        .carousel{
+            .gallery{
+                .carousel{
+                    height: 431px;
+                    max-width: initial;
+                    .carousel-cell{
+                        text-align: center;
+                        a{
+                            .box-card{
+                                margin-bottom: 6px;
+                                .content-imagen{
+                                    .imagen-central{
+                                        img{
+                                            width: 145px;
                                         }
                                     }
-                                    .text-info{
-                                        text-align: left;
-                                    }
+                                }
+                                .text-info{
+                                    text-align: left;
                                 }
                             }
-                            button{
-                                background: #000;
-                                padding: 12px 20px;
-                                font-weight: 600;
-                                font-size: 12px;
-                                line-height: 11px;
-                                color: #F7EC00;
-                                border-radius: 11px;
-                                width: 230px;
-                                cursor: pointer;
-                            }
+                        }
+                        button{
+                            background: #000;
+                            padding: 12px 20px;
+                            font-weight: 600;
+                            font-size: 12px;
+                            line-height: 11px;
+                            color: #F7EC00;
+                            border-radius: 11px;
+                            width: 230px;
+                            cursor: pointer;
                         }
                     }
                 }
@@ -187,12 +316,17 @@
     }
 }
 
+
 @media only screen and (min-width: 769px) {
     #carritoCompra.page-principal{
         .boxHeader{
             .box-content-bar{
                 background: #0066CC;
                 color: #ffffff;
+                background: #0066CC;
+                color: #ffffff;
+                z-index: 8;
+                position: relative;
                 .box-category{
                     img{
                         display: none;
@@ -252,70 +386,107 @@
         }
         .boxBody{
             .box-content-carritocompra{
-
+                display: flex;
                 .box-carrito{
-                    .content-box-carrito{
-
-                        .img-box-carrito{
-
-                            .content-img{
-                               
-                                img{
-                                    
+                    display: inline-block;
+                    width: 69%;
+                    .bar-grey-title{
+                        display: block;
+                        .content-bar-grey-title{
+                            display: flex;
+                            background: #F1F1F3;
+                            border-radius: 10px;
+                            padding: 10px 12px;
+                            font-size: 14px;
+                            font-family: 'Montserrat';
+                            margin-bottom: 30px;
+                            .bar-left{
+                                width: 38%;
+                            }
+                            .bar-right{
+                                width: 65%;
+                                .bar-right-precio{
+                                    width: 36%;
+                                    padding: 0 10px;
+                                }
+                                .bar-right-cantidad{
+                                    width: 30%;
+                                    padding: 0 3px;
+                                }
+                                .bar-right-total{
+                                    width: 35%;;
+                                    padding: 0 36px;
                                 }
                             }
                         }
+                    }
+                    .content-box-carrito{
+                        margin: 40px 0;
                         .text-box-carrito{
-                            
                             .content-text{
-                                
+                                width: 100%;
                                 .box-title-prod{
-                                    .title-sm{
-                                        
-                                        .circle-color{
-                                            
-                                        }
-                                        .square-talla{
-                                            
-                                        }
-                                        .title{
-                                            
-                                        }
-                                        a{
-                                           
-                                        }
-                                    }
-                                    .title-big{
-                                        
-                                    }
+                                    width: 31%;
+                                    display: inline-block;
+                                    float: left;
+                                    margin-right: 30px;
                                 }
-                                .det-product{
-                                    
-                                }
-                                .box-contador{
-                                    .conteo{
-                                        .add-prod{
-                                            button{
-                                                
+                                .content-box-det-prec{
+                                    width: 65%;
+                                    display: flex;
+                                    padding-top: 45px;
+                                    .det-product{
+                                        display: inline-block;
+                                        width: 13%;
+                                    }
+                                    .box-contador{
+                                        display: inline-block;
+                                        width: 27%;
+                                        .conteo{
+                                            .add-prod{
+                                                button{
+                                                    width: 24px;
+                                                    height: 24px;
+                                                }
+                                            }
+                                            .result{
+                                                width: 30px;
+                                                height: 24px;
                                             }
                                         }
-                                        .result{
-                                            
+                                    }
+                                    .sum-product{
+                                        display: inline-block;
+                                        width: 10%;
+                                        padding: 10px 0;
+                                    }
+                                    a{
+                                        display: inline-block;
+                                        width: 2%;
+                                        span{
+                                            display: none;
                                         }
                                     }
-                                }
-                                a{
-                                    
                                 }
                             }
                         }
                     }
                 }
+                .box-pagos-proces{
+                    display: inline-block;
+                    width: 26%;
+                    display: inline-block;
+                    position: relative;
+                    top: -153px;
+                    left: 71px;
+                    background: #fff;
+                    .pago-seguro{
+                        width: 100%;
+                    }
+                }
             }
         }
-
     }
-
 }
 
 

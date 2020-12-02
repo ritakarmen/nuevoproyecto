@@ -1,3 +1,7 @@
+#carritoCompra.page-principal {
+  /*fin slider*/
+}
+
 #carritoCompra.page-principal .box-content-bar-blue-mobil {
   display: block;
   background: #0066CC;
@@ -6,10 +10,6 @@
   height: 18px;
   text-align: left;
   padding: 16px;
-}
-
-#carritoCompra.page-principal .boxBody {
-  /*fin slider*/
 }
 
 #carritoCompra.page-principal .boxBody .box-content-bar .box-category .img-bar-blue {
@@ -59,6 +59,10 @@
   margin: 30px;
 }
 
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .bar-grey-title {
+  display: none;
+}
+
 #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -100,12 +104,42 @@
   display: flex;
 }
 
-#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .box-title-prod .title-sm .circle-color {
-  width: 20px;
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .box-title-prod .title-sm label {
+  margin: -7px 12px;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .box-title-prod .title-sm label .option-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 13.33333px;
+  right: 0;
+  bottom: 0;
+  left: 0;
   height: 20px;
-  background: red;
-  border-radius: 25px;
-  margin: 7px;
+  width: 20px;
+  background: #e04056;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .box-title-prod .title-sm label .option-input:hover {
+  border: 2.5px solid #e04056;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .box-title-prod .title-sm label .option-input:checked {
+  border: 2px solid #e04056;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .box-title-prod .title-sm label .option-input.radio {
+  border-radius: 50%;
 }
 
 #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .box-title-prod .title-sm .square-talla {
@@ -128,51 +162,170 @@
   padding-bottom: 10px;
 }
 
-#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .det-product {
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .content-box-det-prec .det-product {
   padding: 10px 0;
 }
 
-#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .box-contador .conteo .add-prod button {
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .content-box-det-prec .box-contador .conteo .add-prod button {
   width: 43px;
   height: 43px;
   float: left;
 }
 
-#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .box-contador .conteo .result {
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .content-box-det-prec .box-contador .conteo .result {
   float: left;
   width: 43px;
   height: 43px;
   text-align: center;
 }
 
-#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text a {
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .content-box-det-prec .sum-product {
+  display: none;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .content-box-det-prec a {
   float: left;
   color: #0066CC;
   margin: 15px 0;
 }
 
-#carritoCompra.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel {
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .pago-seguro {
+  width: 100%;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .pago-seguro .content-pago-seguro {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .resum-pedid .content-resum-pedid {
+  background: #FFFFFF;
+  border: 0.449323px solid #F1F1F3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 3.59458px 8.98645px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 3.59458px 8.98645px rgba(0, 0, 0, 0.05);
+  border-radius: 8.98645px;
+  padding: 40px 25px;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .resum-pedid .content-resum-pedid h1 {
+  font-size: 16.1756px;
+  line-height: 14px;
+  margin-bottom: 40px;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .resum-pedid .content-resum-pedid p {
+  width: 100%;
+  display: block;
+  margin-bottom: 23px;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .resum-pedid .content-resum-pedid p .bar-left {
+  font-size: 14px;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .resum-pedid .content-resum-pedid p .bar-right {
+  font-size: 16px;
+  float: right;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .resum-pedid .content-resum-pedid p a {
+  color: #0066CC;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .resum-pedid .content-resum-pedid p #cupon-desc {
+  margin: 20px 0;
+  background: #FFFFFF;
+  border: 0.449323px solid #B8B8B8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8.98645px;
+  padding: 10px 30px;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .resum-pedid .content-resum-pedid .box-descto {
+  background: #27AE60;
+  padding: 20px;
+  color: #fff;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .resum-pedid .content-resum-pedid .mont-total {
+  border-top: 1px solid grey;
+  padding-top: 32px;
+  text-align: center;
+  font-size: 14.3783px;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .resum-pedid .content-resum-pedid .Proceso-compra {
+  background: #E6E6E6;
+  border-radius: 10px;
+  padding: 20px 40px;
+  color: grey;
+  font-size: 14px;
+  border: 1px solid #c8c4c4;
+  width: 100%;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-asesor {
+  width: 80%;
+  margin: 40px auto;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-asesor .content-asesor {
+  background: #F7EC00;
+  border: 0.449323px solid #F1F1F3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 3.59458px 8.98645px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 3.59458px 8.98645px rgba(0, 0, 0, 0.05);
+  border-radius: 8.98645px;
+  padding: 40px 25px;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-asesor .content-asesor h1 {
+  font-weight: bold;
+  font-size: 10.7837px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-asesor .content-asesor ul {
+  list-style-type: none;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-asesor .content-asesor ul li {
+  font-size: 10.7837px;
+  line-height: 22px;
+  margin-bottom: 12px;
+}
+
+#carritoCompra.page-principal .boxBody .box-content-carritocompra .box-asesor .content-asesor ul li img {
+  width: 12px;
+}
+
+#carritoCompra.page-principal .box-te-puede-interesar .carousel .gallery .carousel {
   height: 431px;
   max-width: initial;
 }
 
-#carritoCompra.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell {
+#carritoCompra.page-principal .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell {
   text-align: center;
 }
 
-#carritoCompra.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell a .box-card {
+#carritoCompra.page-principal .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell a .box-card {
   margin-bottom: 6px;
 }
 
-#carritoCompra.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell a .box-card .content-imagen .imagen-central img {
+#carritoCompra.page-principal .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell a .box-card .content-imagen .imagen-central img {
   width: 145px;
 }
 
-#carritoCompra.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell a .box-card .text-info {
+#carritoCompra.page-principal .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell a .box-card .text-info {
   text-align: left;
 }
 
-#carritoCompra.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell button {
+#carritoCompra.page-principal .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell button {
   background: #000;
   padding: 12px 20px;
   font-weight: 600;
@@ -188,6 +341,10 @@
   #carritoCompra.page-principal .boxHeader .box-content-bar {
     background: #0066CC;
     color: #ffffff;
+    background: #0066CC;
+    color: #ffffff;
+    z-index: 8;
+    position: relative;
   }
   #carritoCompra.page-principal .boxHeader .box-content-bar .box-category img {
     display: none;
@@ -224,6 +381,106 @@
   }
   #carritoCompra.page-principal .boxHeader .header-section-main .content-bar-yellow .icons .btn-profile a {
     color: #ffffff;
+  }
+  #carritoCompra.page-principal .boxBody .box-content-carritocompra {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito {
+    display: inline-block;
+    width: 69%;
+  }
+  #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .bar-grey-title {
+    display: block;
+  }
+  #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .bar-grey-title .content-bar-grey-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #F1F1F3;
+    border-radius: 10px;
+    padding: 10px 12px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    margin-bottom: 30px;
+  }
+  #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .bar-grey-title .content-bar-grey-title .bar-left {
+    width: 38%;
+  }
+  #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .bar-grey-title .content-bar-grey-title .bar-right {
+    width: 65%;
+  }
+  #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .bar-grey-title .content-bar-grey-title .bar-right .bar-right-precio {
+    width: 36%;
+    padding: 0 10px;
+  }
+  #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .bar-grey-title .content-bar-grey-title .bar-right .bar-right-cantidad {
+    width: 30%;
+    padding: 0 3px;
+  }
+  #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .bar-grey-title .content-bar-grey-title .bar-right .bar-right-total {
+    width: 35%;
+    padding: 0 36px;
+  }
+  #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito {
+    margin: 40px 0;
+  }
+  #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text {
+    width: 100%;
+  }
+  #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .box-title-prod {
+    width: 31%;
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+  }
+  #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .content-box-det-prec {
+    width: 65%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 45px;
+  }
+  #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .content-box-det-prec .det-product {
+    display: inline-block;
+    width: 13%;
+  }
+  #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .content-box-det-prec .box-contador {
+    display: inline-block;
+    width: 27%;
+  }
+  #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .content-box-det-prec .box-contador .conteo .add-prod button {
+    width: 24px;
+    height: 24px;
+  }
+  #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .content-box-det-prec .box-contador .conteo .result {
+    width: 30px;
+    height: 24px;
+  }
+  #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .content-box-det-prec .sum-product {
+    display: inline-block;
+    width: 10%;
+    padding: 10px 0;
+  }
+  #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .content-box-det-prec a {
+    display: inline-block;
+    width: 2%;
+  }
+  #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-carrito .content-box-carrito .text-box-carrito .content-text .content-box-det-prec a span {
+    display: none;
+  }
+  #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-pagos-proces {
+    display: inline-block;
+    width: 26%;
+    display: inline-block;
+    position: relative;
+    top: -153px;
+    left: 71px;
+    background: #fff;
+  }
+  #carritoCompra.page-principal .boxBody .box-content-carritocompra .box-pagos-proces .pago-seguro {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=styleCarritoCompra.css.map */
