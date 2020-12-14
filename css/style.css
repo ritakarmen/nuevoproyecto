@@ -321,6 +321,10 @@ height: 48px;
     height: 216px;
 
 }
+.carousel .box-card .content-imagen .imagen-central img{
+  max-width: 190px;
+  max-height: 190px;
+}
 .carousel .box-card .content-imagen .marca-mensaje .marca-producto{
   position: absolute;
     top: 14px;
@@ -338,6 +342,8 @@ height: 48px;
   position: absolute;
   top:0;
   right: 17px;
+  width: 35%;
+  text-align: center;
 }
 .carousel .box-card .content-imagen .marca-mensaje .mensaje2{
   font-size: 13px;
@@ -355,10 +361,12 @@ height: 48px;
 .carousel .box-card .text-info strong{
   font-size: 20px;
   display: block;
+  text-decoration-line: none;
 }
 .carousel .box-card .text-info span{
   font-size: 16px;
   display: block;
+  text-decoration-line: none;
 }
 .carousel .box-card .text-info .text-tacha{
   font-size: 12px;
@@ -376,7 +384,7 @@ height: 48px;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   padding-left: 18px;
-  width: 65%;
+
 }
 #box-list-slider .title-oferta{
   font-family: 'Montserrat';
@@ -388,6 +396,7 @@ height: 48px;
   color: #0066CC;
   font-family: 'Lato', sans-serif;
   text-decoration: none;
+  padding-left: 8px;
 }
 .cardshow .box-card {
   width: 270px;
@@ -449,6 +458,8 @@ height: 48px;
 }
 #box-list-linea-econ .box-card .imagen-central img{
   width: 77%;
+  max-width: 190px;
+  max-height: 190px;
 }
 #box-list-linea-econ .box-card .text-info {
   margin: 27px;
@@ -1083,8 +1094,9 @@ height: 48px;
       #box-list-linea-econ .content-box-naranja{
         display: flex;
       }
-      #box-list-linea-econ .box-cardshow-lineco{
-
+      #box-list-linea-econ .content-box-naranja  .box-cardshow-lineco a .box-card .text-info strong{
+        text-decoration: underline;
+        color: red;
       }
       #box-list-linea-econ .box-cardshow-lineco .box-card{
         width: 298px;

@@ -1,0 +1,528 @@
+#pago.page-principal .box-content-bar-blue-mobil {
+  display: block;
+  background: #0066CC;
+  color: #fff;
+  width: 100%;
+  height: 18px;
+  text-align: left;
+  padding: 16px;
+}
+
+#pago.page-principal .boxBody .box-content-bar .box-category .img-bar-blue {
+  display: none;
+}
+
+#pago.page-principal .boxBody .box-content-bar .bar-menu-horizontal li a .icon-bar-blue {
+  display: none;
+}
+
+#pago.page-principal .boxBody .box-header .cont-box-header {
+  padding: 10px;
+}
+
+#pago.page-principal .boxBody .box-header .cont-box-header .box-header-title-sup ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#pago.page-principal .boxBody .box-header .cont-box-header .box-header-title-sup ul li {
+  float: left;
+  padding-left: 5px;
+  font-size: 10px;
+}
+
+#pago.page-principal .boxBody .box-header .cont-box-header .box-header-title-inf h1 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  border-bottom: 1px solid;
+  padding: 20px 0 10px;
+}
+
+#pago.page-principal .boxBody .box-header .cont-box-header .box-header-title-inf span {
+  font-size: 10px;
+}
+
+#pago.page-principal .boxBody .box-header .cont-box-header .box-header-title-inf span a {
+  text-decoration: none;
+  color: #0066CC;
+}
+
+#pago.page-principal .boxBody .box-content-pago {
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar {
+  width: 100%;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container {
+  position: relative;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-bar-item {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  color: #000500;
+  background: #FFFFFF;
+  border: 0.78291px solid #f1f1f3;
+  width: 100%;
+  padding: 5px 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 7.8291px;
+  text-align: left;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-bar-item:focus {
+  outline: none;
+  border: none !important;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-hide {
+  display: none;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-show {
+  display: block;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  background: #FFFFFF;
+  margin-top: 34px;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container {
+  border: 0.5px solid #F1F1F3;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 5%;
+  padding: 23px;
+  text-align: center;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .form-title {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  margin: 35px 0;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .input, #pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .btn-enviar, #pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .btns-rs {
+  display: block;
+  background: #1877F2;
+  border-radius: 10px;
+  padding: 8px 13px;
+  width: 100%;
+  margin: 20px 0;
+  color: white;
+  border: none;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 21px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .input {
+  background: #FFFFFF;
+  border: 0.78291px solid #cacaca;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 13px;
+  text-align: left;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .input::-webkit-input-placeholder {
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .input:-ms-input-placeholder {
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .input::-ms-input-placeholder {
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .input::placeholder {
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .form-text {
+  display: block;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 13px;
+  color: #0066CC;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .btn-enviar {
+  background: #E6E6E6;
+  font-size: 12px;
+  color: #808080;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .btns-rs {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .btns-rs img {
+  width: 20px;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .btns-rs-facebook {
+  background: #1877F2;
+  color: white;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .btns-rs-google {
+  color: #808080;
+  background: #FFFFFF;
+  border: 0.78291px solid #cacaca;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 13px;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .form-input, #pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .text-label {
+  display: block;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .form-input {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 20px;
+  width: 10%;
+  display: inline-block;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .form-label {
+  display: inline-block;
+  width: 80%;
+  text-align: left;
+  font-size: 10px;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .text-label {
+  font-family: "Montserrat";
+  font-size: 12px;
+  line-height: 20px;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .text-btn {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  color: #B8B8B8;
+  width: 69px;
+  margin: 19px auto;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .ruc {
+  width: 23%;
+  background: #000;
+  color: #FFEB3B;
+  border-radius: 11px;
+  padding: 10px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .numdocumento {
+  width: 74%;
+  display: inline-block;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .form-container .input-group {
+  text-align: left;
+  font-size: 12px;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .content-logo-tarj {
+  text-align: center;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .content-logo-tarj img {
+  display: inline-block;
+  width: 36%;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-pagos-proces {
+  padding: 0 10px;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-pagos-proces .pago-seguro {
+  width: 100%;
+}
+
+#pago.page-principal .boxBody .box-content-pago .box-pagos-proces .pago-seguro .content-pago-seguro {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#pago.page-principal .boxBody .box-content-pago .resum-pedid .content-resum-pedid {
+  background: #FFFFFF;
+  border: 0.449323px solid #F1F1F3;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 3.59458px 8.98645px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 3.59458px 8.98645px rgba(0, 0, 0, 0.05);
+  border-radius: 8.98645px;
+  padding: 40px 25px;
+}
+
+#pago.page-principal .boxBody .box-content-pago .resum-pedid .content-resum-pedid h1 {
+  font-size: 16.1756px;
+  line-height: 14px;
+  margin-bottom: 40px;
+}
+
+#pago.page-principal .boxBody .box-content-pago .resum-pedid .content-resum-pedid p {
+  width: 100%;
+  display: block;
+  margin-bottom: 23px;
+}
+
+#pago.page-principal .boxBody .box-content-pago .resum-pedid .content-resum-pedid p #cupon-desc {
+  margin: 20px 0;
+  background: #FFFFFF;
+  border: 0.449323px solid #B8B8B8;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 8.98645px;
+  padding: 10px 30px;
+}
+
+#pago.page-principal .boxBody .box-content-pago .resum-pedid .content-resum-pedid .box-descto {
+  background: #27AE60;
+  padding: 20px;
+  color: #fff;
+}
+
+#pago.page-principal .boxBody .box-content-pago .resum-pedid .content-resum-pedid .mont-total {
+  border-top: 1px solid grey;
+  padding-top: 32px;
+  text-align: center;
+  font-size: 14.3783px;
+}
+
+#pago.page-principal .boxBody .box-content-pago .resum-pedid .content-resum-pedid .Proceso-compra {
+  background: #E6E6E6;
+  border-radius: 10px;
+  padding: 20px 40px;
+  color: grey;
+  font-size: 14px;
+  border: 1px solid #c8c4c4;
+  width: 100%;
+}
+
+/*fin slider*/
+@media only screen and (min-width: 769px) {
+  #pago.page-principal .boxBody .box-content-pago {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar {
+    width: 70%;
+    display: inline-block;
+  }
+  #pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container {
+    position: relative;
+  }
+  #pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-bar-item {
+    width: 34%;
+    position: absolute;
+    top: 12px;
+    z-index: 1;
+  }
+  #pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .box-title1 {
+    left: 5%;
+  }
+  #pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .box-title2 {
+    left: 38%;
+  }
+  #pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .box-title3 {
+    left: 70%;
+  }
+  #pago.page-principal .boxBody .box-content-pago .box-tabs-w3-bar .box-w3-container .w3-container .content-logo-tarj img {
+    width: 22%;
+  }
+  #pago.page-principal .boxBody .box-content-pago .box-pagos-proces {
+    width: 28%;
+    display: inline-block;
+  }
+  #pago.page-principal .boxBody .box-content-pago .box-pagos-proces .pago-seguro .content-pago-seguro {
+    text-align: center;
+    padding: 0 0 40px 0;
+  }
+}
+
+/*   @media only screen and (min-width: 769px){
+        #pago.page-principal{
+            .boxBody{
+                .box-content-pago{
+                    .box-tabs-w3-bar{
+                        .box-w3-container{
+   
+                            .box-title1{  width: 20%;
+                                display: inline-block;
+                                position: absolute;
+                                top: 279px;
+                                left: 3px;
+                                z-index: 7;
+                                background: rebeccapurple;
+                            }
+                            .box-title2{ width: 20%;
+                            display: inline-block;
+                            position: absolute;
+                            top: 279px;
+                            left: 245px;
+                            z-index: 7;
+                            background: rebeccapurple;}
+                            .box-title3{
+                                width: 20%;
+                                display: inline-block;
+                                position: absolute;
+                                top: 279px;
+                                left: 490px;
+                                z-index: 7;
+                                background: rebeccapurple;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }*/
+/*
+@media only screen and (min-width: 769px) {
+    #pago.page-principal{
+        .boxHeader{
+            .box-content-bar{
+                background: #0066CC;
+                color: #ffffff;
+                background: #0066CC;
+                color: #ffffff;
+                z-index: 8;
+                position: relative;
+                .box-category{
+                    img{
+                        display: none;
+                    }
+                    .img-bar-blue{
+                        display: inline-block;
+                    }
+                }
+                .bar-menu-horizontal{
+                    a{
+                        color: #ffffff;
+                    }
+                    img{
+                        display: none;
+                    }
+                    .icon-bar-blue{
+                        display: inline-block;
+                    }
+                }
+            }
+            .box-content-bar-blue-mobil{
+                display: none;
+            }
+            .header-section-main{
+                background: #000000;
+                .content-bar-yellow{
+                    .header-logo{
+                        .navbar-brand{
+                            .logoyellow{
+                                display: none;
+                            }
+                            .logoblack{
+                                display: block;
+                            }
+                        }
+                    }
+                    .icons{
+                        .icons-btn{
+                            .navbar-link{
+                                .carrito{
+                                    display: none;
+                                }
+                                .carritofix{
+                                    display: block;
+                                }
+                            }
+                        }
+                        .btn-profile{
+                            a{
+                                color: #ffffff;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+        
+        .box-content-pago{
+            display: flex;
+            .box-pagos-proces{
+                display: inline-block;
+                width: 26%;
+                display: inline-block;
+                position: relative;
+                top: -153px;
+                left: 71px;
+                background: #fff;
+                .pago-seguro{
+                    width: 100%;
+                }
+            }
+        }
+        
+    }
+}
+
+*/
+/*# sourceMappingURL=stylePago.css.map */
