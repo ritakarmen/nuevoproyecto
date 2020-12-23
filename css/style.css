@@ -158,6 +158,7 @@ height: 48px;
 .boxFooter .boxFoter-content-text span{
     color: #ffffff;
     font-weight: bold;
+    font-size: 14px;
 }
 .boxFooter .boxfooter-list{
   position: relative;
@@ -483,6 +484,10 @@ height: 48px;
   padding-top: 50px;
 }
 
+#box-list-linea-econ .gallerynaranja .carousel .box-card{
+  box-shadow: none;
+}
+
 #box-list-linea-econ .box-card .content-imagen .marca-mensaje .marca-producto {
   left: 21px;
 }
@@ -552,6 +557,7 @@ height: 48px;
 #box-list-suscripcion .content-suscripcion .box-icons a {
   text-decoration: none;
   color: #000;
+  display: flex;
 }
 #box-list-suscripcion .content-suscripcion .box-icons img {
   width: 5%;
@@ -587,8 +593,8 @@ height: 48px;
   padding-bottom: 10px;
 }
 .boxFooter-content-bar-white .boxfooter-list .box-contact ul li a{
-  text-decoration:none
-  
+  text-decoration:none;
+  font-size:16px;
 }
 .boxFooter-content-bar-white .boxfooter-list .box-contact ul li img{
   padding: 5px;
