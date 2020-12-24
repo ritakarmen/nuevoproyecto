@@ -185,7 +185,7 @@
 }
 
 #detalle1.page-principal .boxBody .box-content-detalle1 .box-cant-prod .content-box-cant-prod .box-canasta a {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 11px;
   color: #F7EC00;
   width: 156px;
@@ -194,6 +194,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: auto;
 }
 
 #detalle1.page-principal .boxBody .box-content-detalle1 .box-cant-prod .content-box-cant-prod .box-canasta a img {
@@ -444,16 +445,34 @@
   text-align: left;
 }
 
-#detalle1.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell button {
+#detalle1.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell .box-canasta {
+  width: 79%;
+  display: inline-block;
   background: #000;
-  padding: 12px 20px;
-  font-weight: 600;
-  font-size: 12px;
+  padding: 11px 13px;
+  border-radius: 11px;
+}
+
+#detalle1.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell .box-canasta a {
+  font-size: 14px;
   line-height: 11px;
   color: #F7EC00;
-  border-radius: 11px;
-  width: 230px;
+  width: 156px;
+  text-decoration: none;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+#detalle1.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell .box-canasta a img {
+  width: 20px;
+}
+
+#detalle1.page-principal .boxBody .box-te-puede-interesar .carousel .gallery .carousel .carousel-cell .box-canasta a span {
+  padding-top: 4px;
+  padding-left: 10px;
 }
 
 @media only screen and (min-width: 769px) {
